@@ -1,0 +1,132 @@
+
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.8; 
+    background-color:#e1d9ce; //#E6DFD7 - #E8E1DB - #F4F5F0  #2c170f
+    // display: flex;
+    // flex-direction: column;
+    // max-height: 100%;
+    // height: 100vh;
+  }
+
+  
+  body::-webkit-scrollbar {
+    width: 5px;
+    scrollbar-width: thin;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #f4f5f0;
+    border-radius: 12px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #424953;
+    border-radius: 12px;
+  }
+
+  
+  p {
+    color: $black;
+    font-size: 1.5rem;
+  }
+  
+  .mst-page-main-block {
+    background-color: #F4F5F0;
+    min-height: calc(100vh - 211px - 58px);
+  }
+
+  .contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img,
+  picture {
+    width: 10rem;
+    max-width: 1200px;
+    object-fit: cover; /* Escala la imagen para llenar el contenedor */
+    object-position: bottom; /* Alinea la imagen hacia abajo */
+  }
+
+  h1, h2, h3 {
+    font-family: $prueba;
+    // margin: 2.5rem 0;
+    font-weight: 300;
+    
+    
+  }
+
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 3.4rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 2.6rem;
+  }
+
+.separacion {
+    padding: 3rem 0;
+}
+
+.mst-separation-footer {
+  padding: 1.5rem;
+}
+
+.mst-separation-bottom {
+  padding-bottom: 3rem;
+}
+
+a{
+  // color: #333;
+  // font-size: 13.5px;
+  // font-weight: 400;
+  font-size: 1.37rem;
+  font-weight: 250;
+  text-decoration: none;
+
+}
+
+span{
+  font-size: 12px;
+
+}
+
+p{
+  // font-size: 14px;
+  // font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 250;
+  letter-spacing: 0.3px;
+  margin: 12px 0;
+}
+
+li {
+  list-style: none;
+}
+
+hr {
+  border: solid .2px #3c3c3c;
+}

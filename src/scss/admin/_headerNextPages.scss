@@ -1,0 +1,106 @@
+
+.mst-header-admin-page {
+    background-image: url(../img/img-header/header-cardapio.jpg);
+    background-attachment: fixed;
+    background-position: 50%;
+    background-size: cover;
+    height: 40rem;
+    position: relative;
+    width: 100%;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.7); /* Cambia el valor para ajustar la opacidad */
+        }
+
+            .mst-admin-page-content {
+                text-align: left;
+                position: relative;
+                top: 5rem;
+                padding: 4rem;
+
+                        .mst-paragraph-admin-page {
+                            margin: 0;
+                        }
+
+                
+                        h1 {
+                            color: $white;
+                            text-align: center;
+                            font-weight: 200;
+                            font: 400 87px / 84px Abril Fatface;
+                            font-size: 5.2rem;
+                            margin-top: 0;
+                            
+                            @include desktop {
+                                font-size: 6rem;
+                            }
+                        }
+
+                        p {
+                            color: $white;
+                            font-weight: 200;
+                            position: relative;
+                            bottom: 2.5rem;
+                            text-align: center;
+                        }
+                
+                @include tablet {
+                    position: relative;
+                    color: $white;
+                    text-align: center;
+                    padding: 1rem 0;
+                    top: 15rem;
+                    
+
+                        h1 {
+                            font-weight: 200;
+                            font-size: 6rem;
+                            text-align: center;
+                            margin: 0;
+                        }
+
+                        p {
+                            color: $white; // #FF5733
+                            font-size: 1.5rem;
+                            font-weight: 200;
+                            text-align: center;
+                            position: relative;
+                            bottom: 1rem;
+                        }
+                }
+
+
+                .mst-btn-mst-admin-page {
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+    
+                       .mst-btns {
+                        font: 400 13px / 21px 'open sans';
+                        font-size: 1.7rem;
+                        background-color: var(--mst-button-background-pink); //#424953
+                        width: 200px;
+                        padding: 10px 40px;
+                        text-align: center;
+                        color: #F4F5F0;
+                        border-radius: 10px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                        transition: 0.1s;
+    
+    
+                            &:hover, &:focus, &:active {
+                                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                                transform: scale(1.1);
+                            }
+                    }
+             }
+            }
+}

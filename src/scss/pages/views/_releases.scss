@@ -1,0 +1,253 @@
+.mst-bg-image-releases {
+    background-image: url(../img/img-header/header-cardapio.jpg);
+    background-attachment: fixed;
+    background-position: 50%;
+    background-size: cover;
+    height: 70rem;
+    position: relative;
+    width: 100%;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.7); /* Cambia el valor para ajustar la opacidad */
+        }
+
+            .mst-releases-title-content-block {
+                text-align: left;
+                position: relative;
+                top: 20rem;
+                padding: 4rem;
+
+                
+                        h1 {
+                            color: $white;
+                            text-align: center;
+                            font-weight: 200;
+                            font: 400 87px / 84px Abril Fatface;
+                            font-size: 5.2rem;
+                            margin-top: 0;
+
+                            @include desktop {
+                                font-size: 6rem;
+                            }
+                        }
+
+                        p {
+                            color: $white;
+                            font-weight: 200;
+                            position: relative;
+                            bottom: 2.5rem;
+                            text-align: center;
+                        }
+                
+                @include tablet {
+                    position: relative;
+                    top: 27rem;
+                    color: $white;
+                    text-align: center;
+                    padding: 1rem 0;
+
+
+                        h1 {
+                            font-weight: 200;
+                            font-size: 6rem;
+                            text-align: center;
+                            margin: 0;
+                        }
+
+                        p {
+                            color: $white; 
+                            font-size: 1.5rem;
+                            font-weight: 200;
+                            text-align: center;
+                            position: relative;
+                            bottom: 1rem;
+                        }
+                }
+
+
+                .mst-btn-releases-separation-block {
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+    
+                       .mst-btns {
+                        font: 400 13px / 21px 'open sans';
+                        font-size: 1.7rem;
+                        background-color: var(--mst-button-background-pink); //#424953
+                        width: 200px;
+                        padding: 10px 40px;
+                        text-align: center;
+                        color: #F4F5F0;
+                        border-radius: 10px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                        transition: 0.1s;
+    
+    
+                            &:hover, &:focus, &:active {
+                                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                                transform: scale(1.1);
+                            }
+                    }
+             }
+            }
+}
+
+
+
+
+
+
+.content-releases-tittle-mst-section {
+
+    background-color: var(--mst-background-sections); //#424953
+    padding: 5rem;
+
+    @include desktop {
+        padding: 0 10rem;
+    }
+
+                p {
+
+                    @include tablet {
+                        padding: 0 4rem;
+                    }
+
+                    @include desktop {
+                        padding: 0;
+                    }
+                }
+
+
+
+                h1 {
+
+                    text-align: left;
+                    font: 400 87px / 84px Abril Fatface;
+                    font-size: 6rem;
+
+                    @include desktop {
+                        text-align: left;
+                        margin: 3.5rem 0;
+                        font-size: 9rem;
+
+                    }
+
+                    @include tablet {
+                        font-size: 9rem;
+                        margin: 5rem 0;
+                    }
+                 }
+
+                p {
+
+                    text-align: left;
+                    // font: 400 13px / 21px 'open sans';
+                    font-size: 1.7rem;
+                    margin: 3rem 0;
+                    padding: 0;
+
+                    @include desktop {
+                        text-align: left;
+                        margin: 1rem 0;
+                        padding-left: 0;
+                        padding-bottom: 3rem;
+                    }
+                    
+                }
+
+                h2 {
+                    font: 400 87px / 48px Abril Fatface;
+                    font-size: 3rem;
+                }
+
+                .mst-releases-text-complete {
+
+                    .mst-paragraph-tittle-releases {
+                        p {
+                            text-align: center;
+                        }
+                    }
+                    
+                    display: flex;
+                    flex-direction: column;
+                    border-radius: 10px;
+                    // margin-bottom: 5rem;
+            
+                    @include tablet {
+                        padding: 2rem .5rem;
+            
+                    }
+                    
+                    @include desktop {
+                        padding: 3rem 0;
+                        margin: 0;
+                        margin: 0 auto;
+                        max-width: 1280px;
+                    }
+            
+                }
+
+                .mst-btn-position-releases {
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        @include desktop {
+                            display: flex;
+                            justify-content: flex-start; //flex-start
+                            align-items: center;
+                        }
+
+                        .mst-btns {
+                            font: 400 13px / 21px 'open sans';
+                            font-size: 1.7rem;
+                            background-color: var(--mst-button-background-blue); //#424953
+                            width: 200px;
+                            padding: 10px 40px;
+                            text-align: center;
+                            color: #F4F5F0;
+                            border-radius: 10px;
+                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                            transition: 0.1s;
+        
+        
+                                &:hover, &:focus, &:active {
+                                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                                    transform: scale(1.1);
+                                }
+                        }
+                }
+
+        }
+
+        .mst-paragraph-releases-separation-background {
+            background-color: var(--mst-bar-background-sections);
+            padding: 5rem;
+
+            @include desktop {
+                padding: 5rem 10rem;
+
+            }
+        
+                h1 {
+                    margin: 0;
+                    text-align: left;
+                    font: 400 87px / 84px Abril Fatface;
+                    font-size: 6rem;
+
+                }
+
+                p {
+                    margin: 0 auto;
+                    max-width: 1280px;
+                }
+        }

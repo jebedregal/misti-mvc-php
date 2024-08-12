@@ -1,0 +1,278 @@
+.mst-img-contact-section-block {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/img-cardapio/macarrones-marrones.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    padding: 3.5rem 0;
+    text-align: center;
+    background-attachment: fixed;
+
+    h2 {
+        font: 400 87px/48px Abril Fatface;
+        font-size: 3.5rem;
+        font-weight: 200;
+        margin: 0;
+
+        @include tablet {
+            font-size: 3rem;
+            font-weight: 200;
+        }
+    }
+
+        .mst-content-contact-block {
+            color: $white;
+            text-align: center;
+            padding: 0 2rem;
+            position: relative;
+            bottom: 2.5rem;
+                    
+            
+                @include tablet {
+                    top: 1rem;
+                }
+
+                @include desktop {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 1280px;
+                }
+
+                    p {
+                        color: $white;
+                        font-size: 1.5rem;
+                        font-weight: 250;
+
+                        @include tablet {
+                            margin: 1.5rem 0;
+                        }
+                    }
+
+                }
+
+                .mst-btn-separation-block {
+                    position: relative;
+                    top: 2rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+    
+                    @include tablet {
+                        position: relative;
+                        top: 2rem;
+                    }
+    
+    
+                       .mst-btns {
+                        font: 400 13px / 21px 'open sans';
+                        font-size: 1.7rem;
+                        background-color: var(--mst-button-background-pink); //#424953 #170A1E #00081F
+                        width: 200px;
+                        padding: 10px 40px;
+                        text-align: center;
+                        color: #F4F5F0;
+                        border-radius: 10px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                        transition: 0.1s;
+                        position: relative;
+                        bottom: 1.5rem;
+    
+    
+                            &:hover, &:focus, &:active {
+                                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                                transform: scale(1.1);
+                            }
+                    }
+             }
+                        
+     }
+
+
+
+
+.img-bar-contact-separation {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/img-contacto/barra-contato.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    padding: 3.5rem 0;
+    text-align: center;
+    background-attachment: fixed;
+
+        h2 {
+            font: 400 87px/48px Abril Fatface;
+            font-size: 3.5rem;
+            font-weight: 200;
+            margin: 0;
+            text-align: center;
+        }
+
+            .mst-tittle-content-block {
+                color: $white;
+                text-align: left;
+                padding: 0 2rem;
+                position: relative;
+                bottom: 2rem;
+                        
+                
+                    @include tablet {
+                        text-align: center;
+                        top: 1rem;
+                    }
+
+                    @include desktop {
+                        margin-left: auto;
+                        margin-right: auto;
+                        max-width: 1280px;
+                    }
+
+                        p {
+                            color: $white;
+                            font-size: 1.5rem;
+                            font-weight: 250;
+                            text-align: center;
+                            margin: 1rem 0;
+
+                            @include tablet {
+                                margin: 1.5rem 0;
+                            }
+                        }
+
+                    }
+
+                    .mst-btn-separation-block {
+                        position: relative;
+                        top: 2rem;
+        
+                        @include tablet {
+                            position: relative;
+                            top: 2rem;
+                        }
+        
+                           display: flex;
+                           justify-content: center;
+                           align-items: center;
+        
+                           .mst-btns {
+                            font: 400 13px / 21px 'open sans';
+                            font-size: 1.7rem;
+                            background-color: var(--mst-button-background-pink); //#424953
+                            width: 200px;
+                            padding: 10px 40px;
+                            text-align: center;
+                            color: #F4F5F0;
+                            border-radius: 10px;
+                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                            transition: 0.1s;
+                            position: relative;
+                            bottom: 1.5rem;
+        
+        
+                                &:hover, &:focus, &:active {
+                                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                                    transform: scale(1.1);
+                                }
+                        }
+                 }
+}
+    
+/*****************************************************************************************************/
+
+
+
+
+
+.mst-background-separation-block {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/img-cardapio/macarrones-marrones.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 25rem;
+    padding: 2.5rem 0;
+    text-align: center;
+    background-attachment: fixed;
+
+            h2 {
+                margin: 1.5rem;
+                font: 400 87px/45px Abril Fatface;
+                font-size: 3rem;
+                color: $white;
+                font-weight: 200;
+                position: relative;
+                top: .5rem;
+
+                @include tablet {
+                    position: relative;
+                    top: 3.8rem;
+                }
+
+                @include desktop {
+                    margin-left: auto;
+                    margin-right: auto;
+                    max-width: 1280px;
+                }
+            }
+
+               .mst-btn-separation-block {
+                position: relative;
+                top: 4.5rem;
+
+                @include tablet {
+                    position: relative;
+                    top: 6.5rem;
+                }
+
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
+
+                   .mst-btns {
+                    font: 400 13px / 21px 'open sans';
+                    font-size: 1.7rem;
+                    background-color: var(--mst-button-background-pink); //#424953
+                    width: 200px;
+                    padding: 10px 40px;
+                    text-align: center;
+                    color: #F4F5F0;
+                    border-radius: 10px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    transition: 0.1s;
+                    position: relative;
+                    bottom: 2.5rem;
+
+
+                        &:hover, &:focus, &:active {
+                            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                            transform: scale(1.1);
+                        }
+                }
+         }
+    }
+
+
+
+
+
+.btn-2 {
+    position: relative;
+    display: inline-block;
+    padding: 8px 25px;
+    border: 3px solid;
+    border-radius: 5px;
+    color: #FF0000;  //
+    margin-left: auto;
+    margin-right: auto;
+
+            @include tablet {
+                
+            }
+
+}
+

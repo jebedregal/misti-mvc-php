@@ -1,0 +1,336 @@
+.Sign-off {
+    background-color: #2C4156;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.alert {
+    padding: 0.5rem 1rem;
+    text-align: left;
+    color: $white;
+    font-size: 1.47rem;
+    font-weight: 230;
+    margin: 1rem auto;
+    max-width: 880px;
+
+
+        &.mistake {
+            background-color:  rgba(155, 39, 39, 0.5);
+            border-left: .5rem solid rgba(155, 39, 39, 1);
+            color: #fff;
+        }
+
+        &.success {
+            background-color:  rgba(16, 167, 57, 0.5);
+            border-left: .5rem solid rgba(62, 166, 90, 1);
+            color: #fff;
+        }
+}
+
+/***********************************************************/
+/******************************************/
+/******************************************/
+/***********************************************************/
+
+.adminitrador {
+     padding: 3rem 6rem;
+    background-color: #f5f5f5;
+
+        .mst-btn-voltar-admin-principal-page {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                padding: .5rem;
+            
+            
+                    .mst-btns {
+                        // font: 400 13px / 21px 'open sans';
+                        font-size: 1.4rem;
+                        font-weight: 200;
+                        background-color: var(--mst-button-background-blue); //#424953
+                        width: 250px;
+                        text-align: center;
+                        color: #F4F5F0;
+                        border-radius: 10px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                        transition: 0.1s;
+                        padding: 10px 40px;
+            
+            
+                        @include desktop {
+                            padding: 10px 20px;
+                        }
+            
+            
+                            &:hover, &:focus, &:active {
+                                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                                transform: scale(1.04);
+                            }
+                    }
+                }
+        }
+
+
+/***********************************************************/
+/******************************************/
+/******************************************/
+/***********************************************************/
+
+.admin-page {
+    padding: 3rem 6rem;
+    background-color: #f5f5f5;
+
+    
+    .informacion {
+        padding: 5rem 17rem;
+        margin: 0 auto;
+        max-width: 1280px;
+                h1 {
+                    text-align: center;
+                    font: 400 87px / 84px Abril Fatface;
+                    font-size: 7rem;
+                    margin: 4rem 0;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 200;
+                    
+
+                }
+        }
+
+    .mst-btns-agrupation-admin {
+        display: flex;
+        justify-content: space-between;
+
+        .mst-btn-voltar-admin-principal-page,
+        .mst-btn-section-tables-register,
+        .mst-btn-cerrar-sesion-logout {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                padding: .5rem;
+            
+            
+                    .mst-btns {
+                        // font: 400 13px / 21px 'open sans';
+                        font-size: 1.4rem;
+                        font-weight: 200;
+                        background-color: var(--mst-button-background-blue); //#424953
+                        width: 250px;
+                        text-align: center;
+                        color: #F4F5F0;
+                        border-radius: 10px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                        transition: 0.1s;
+                        padding: 10px 40px;
+            
+            
+                        @include desktop {
+                            padding: 10px 20px;
+                        }
+            
+            
+                            &:hover, &:focus, &:active {
+                                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                                transform: scale(1.04);
+                            }
+                    }
+                }
+            }
+    }
+
+
+/* SCSS TABLE CREAR*/
+
+.form-container {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    background-color: $white;
+}
+
+
+table.propiedades {
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+    
+    thead {
+        background-color: #2C4156;
+        border-radius: 10px;
+        
+        th {
+            color: $white;
+            padding: 2rem;
+            font-size: 14px;
+            font-weight: 200;
+            background-color: var(--mst-button-background-blue);
+        }
+    }
+    
+    .table-image {
+        width: 10rem;
+        margin-left: auto;
+        margin-right: auto;            
+    }
+    
+    tbody {
+        
+        tr {
+            border: 5px solid;
+            
+            td {
+                text-align: left;
+                padding: 1.5rem 2rem;
+                font-size: 14px;
+                font-weight: 200;
+
+                form {
+
+                    .mst-btn-eliminar-admin-tables {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: .5rem;
+
+                        .mst-btns {
+                            font: 400 13px / 21px 'open sans';
+                            font-size: 1.7rem;
+                            background-color: rgb(177, 30, 30); //#424953
+                            width: 300px;
+                            text-align: center;
+                            color: #F4F5F0;
+                            border-radius: 3px;
+                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                            transition: 0.1s;
+                            padding: 10px 40px;
+                            border: none;
+                
+                
+                            @include desktop {
+                                padding: 10px 20px;
+                            }
+                
+                
+                                &:hover, &:focus, &:active {
+                                    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                                    transform: scale(1.04);
+                                }
+                        }
+
+                    }
+                }
+
+
+                .mst-btn-actualizar-admin-tables {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: .5rem;
+            
+            
+                    .mst-btns {
+                        font: 400 13px / 21px 'open sans';
+                        font-size: 1.7rem;
+                        background-color: rgb(29, 138, 29); //#424953
+                        width: 300px;
+                        text-align: center;
+                        color: #F4F5F0;
+                        border-radius: 3px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                        transition: 0.1s;
+                        padding: 10px 40px;
+            
+            
+                        @include desktop {
+                            padding: 10px 20px;
+                        }
+            
+            
+                            &:hover, &:focus, &:active {
+                                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                                transform: scale(1.04);
+                            }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.image-update {
+    width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+}
+
+
+.mst-table-section-block {
+
+    padding: 2.5rem 0;
+
+    h1 {
+        font: 400 87px / 84px Abril Fatface;
+        font-size: 5.5rem;
+        color: #000000;
+        margin-bottom: 1.25em;
+        display: flex;
+        align-items: initial;
+        justify-content: flex-start;
+        flex-direction: initial;
+        font-size: 1.125em;
+        font-weight: 600;
+        letter-spacing: initial;
+        line-height: initial;
+        padding: 0;
+        margin: 1rem;
+    }
+
+                .mst-btn-crear-registros {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    padding: .5rem;
+
+
+                    .mst-btns {
+                        // font: 400 13px / 21px 'open sans';
+                        font-size: 1.4rem;
+                        font-weight: 200;
+                        background-color: var(--mst-button-background-blue); //#424953
+                        width: 250px;
+                        text-align: center;
+                        color: #F4F5F0;
+                        border-radius: 10px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                        transition: 0.1s;
+                        padding: 10px 40px;
+
+
+                        @include desktop {
+                            padding: 10px 20px;
+                        }
+    
+    
+                            &:hover, &:focus, &:active {
+                                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                                transform: scale(1.04);
+                            }
+                    }
+
+                }
+}

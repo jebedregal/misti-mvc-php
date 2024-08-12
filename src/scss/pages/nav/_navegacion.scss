@@ -1,0 +1,160 @@
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+
+    @include desktop {
+        padding-top: 0;
+    }
+
+    .ham-menu {
+        margin-right: 1rem;
+
+    }
+    
+    @include telefono {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+.logo-telefono {
+     picture {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 8rem;
+            img {
+                width: 8rem;
+            }
+    }
+
+    @include desktop {
+        display: none;
+
+    }
+}
+.links-off-screen {
+    display: block;
+    margin-top: 1.5rem;
+    padding-left: 0;
+}
+
+.misti-screen-of-logotype {
+    picture {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin: 1rem auto;
+        width: 10rem;
+            img {
+                width: 10rem;
+            }
+    }
+}
+
+
+
+.mst-menu-off-header-section {
+    padding: 0;
+
+
+    @include desktop{
+        display: none;
+    }
+    .title{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        text-decoration: underline 4px;
+    }
+
+    .mst-off-screen-menu-block-header {
+        margin: 0 auto;
+    }
+
+    .mst-content-menu-off-screen {
+
+                button {
+                    white-space: nowrap;
+                    width: 100%;
+                    background-color: #12100f; 
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 8px 12px;
+                    border:none;
+                    outline: none;
+                    font-size: 12px;
+                    font-weight: 700;
+                    cursor: pointer;
+                }
+
+                span {
+                    color: #f5f5f5;
+                    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+                    font-size: 1.8rem;
+                    font-weight: 200;
+                }
+
+                .mst-itemgroup-menu-off-screen-links{
+                    margin: 1.2rem;
+                    list-style: none;
+                    font-size: 22px;
+                    max-height: 0;
+                    opacity: 0;
+                    line-height: 1.5;
+                    overflow: hidden;
+                    transition: all 0.2s ease;
+
+                            li {
+                                    a {
+                                        text-decoration: none;
+                                        color: #857878;
+                                        font-size: 1.47rem;
+                                        font-weight: 230;
+                                        text-decoration: none;
+                                        letter-spacing: 0.03em;
+                                    }
+                            }
+
+                    
+
+                }
+    }
+    
+
+
+    .d-arrow{
+        transition: transform 0.1s ease-in ;
+        color: #f5f5f5;
+    }
+}
+
+/*add this class when click*/
+.mst-content-menu-off-screen .mst-itemgroup-menu-off-screen-links.show{
+    max-height: 200px; 
+    opacity: 1;
+    padding-bottom: 20px;
+    padding-left: 1.3rem;
+    // margin: 0 0 1.5rem 0;
+    margin: 0;
+    li {
+        a {
+
+            color: #929291;
+            &:hover {
+                color: #f5f5f5;
+            }
+    
+        }
+
+    }
+
+}
+.mst-content-menu-off-screen button .d-arrow.rotate{
+    transform: rotate(180deg);
+}

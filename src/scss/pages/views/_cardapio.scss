@@ -1,0 +1,493 @@
+.mst-bg-image-cardapio {
+    background-image: url(../img/img-header/header-cardapio.jpg);
+    background-attachment: fixed;
+    background-position: 50%;
+    background-size: cover;
+    height: 70rem;
+    position: relative;
+    width: 100%;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.7); /* Cambia el valor para ajustar la opacidad */
+        }
+
+            .mst-cardapio-title-content-block {
+                text-align: left;
+                position: relative;
+                top: 12rem;
+                padding: 4rem;
+
+
+
+                
+                        h1 {
+                            color: $white;
+                            text-align: center;
+                            font-weight: 200;
+                            font: 400 87px / 84px Abril Fatface;
+                            font-size: 5.2rem;
+                            margin-top: 0;
+                            
+                            @include desktop {
+                                font-size: 6rem;
+                            }
+                        }
+
+                        p {
+                            color: $white;
+                            font-weight: 200;
+                            position: relative;
+                            bottom: 2.5rem;
+                            text-align: center;
+                        }
+                
+                @include tablet {
+                    position: relative;
+                    top: 27rem;
+                    color: $white;
+                    text-align: center;
+                    padding: 1rem 0;
+                    
+
+                        h1 {
+                            font-weight: 200;
+                            font-size: 6rem;
+                            text-align: center;
+                            margin: 0;
+                        }
+
+                        p {
+                            color: $white; // #FF5733
+                            font-size: 1.5rem;
+                            font-weight: 200;
+                            text-align: center;
+                            position: relative;
+                            bottom: 1rem;
+                        }
+                }
+
+
+                .mst-btn-cardapio-separation-block {
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+    
+                       .mst-btns {
+                        font: 400 13px / 21px 'open sans';
+                        font-size: 1.7rem;
+                        background-color: var(--mst-button-background-pink); //#424953
+                        width: 200px;
+                        padding: 10px 40px;
+                        text-align: center;
+                        color: #F4F5F0;
+                        border-radius: 10px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                        transition: 0.1s;
+    
+    
+                            &:hover, &:focus, &:active {
+                                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                                transform: scale(1.1);
+                            }
+                    }
+             }
+            }
+}
+
+
+
+
+.mst-cardapio-content-section {
+    background-color: var(--mst-background-sections); //#F4F5F0
+    padding: 3rem;
+
+        @include tablet {
+            padding: 5rem;
+        }
+
+    @include desktop {
+        padding: 3rem 10rem;
+    }
+    
+    .mst-cardapio-content {
+        
+        @include desktop {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10rem;
+            padding: 7rem 10rem;
+        }
+                    display: flex;
+                    flex-direction: column;
+                    border-radius: 10px;
+                    margin-bottom: 5rem;
+            
+                    @include tablet {
+                        padding: .5rem 5rem; //padding: 2rem .5rem;
+            
+                    }
+                    
+                    @include desktop {
+                        padding: 5rem 0;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        margin-left: auto;
+                        margin-right: auto;
+                        max-width: 1280px;
+                    }
+
+        .first-content-mst-section {
+
+                .mst-caption-text {
+                    p {
+                        padding: 0;
+                        margin: 0;
+
+                        @include desktop {
+                            margin: 1rem 0;
+                        }
+                    }
+                }
+
+                h1 {
+                    @include desktop {
+                        text-align: left;
+                        margin: 3.5rem 0;
+                        font-size: 9rem;
+                        margin: 1rem 0;
+                    }
+
+                    @include tablet {
+                        font-size: 7rem;
+                    }
+
+                    text-align: center;
+                    font: 400 87px / 84px Abril Fatface;
+                    font-size: 7rem;
+                    margin: 2rem 0;
+                }
+
+                .mst-pasteles-presentation-img-first {
+                    picture {
+                        width: 100%;
+                            img {
+                                width: 100%;
+                                margin: 2rem 0;
+                            }
+                    }
+
+                    @include desktop {
+                        display: none;
+        
+                    }
+                }
+
+
+                p {
+                    @include tablet {
+                        padding: 0 4rem;
+                    }
+        
+                    @include desktop {
+                        padding: 0;
+                    }
+
+                    @include desktop {
+                        text-align: left;
+                        margin: 1rem 0;
+                        padding-left: 0;
+                        padding-bottom: 3rem;
+                    }
+                    
+                    text-align: center;
+                    // font: 400 13px / 21px 'open sans';
+                    // font-size: 1.7rem;
+                    font-size: 1.5rem;
+                    font-weight: 250;
+                    margin: 1rem 1rem 3rem 1rem; // margin: 3rem 1rem;
+                }
+
+
+                .mst-btn-cardapio-position {
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    @include desktop {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                    }
+
+                    .mst-btns {
+                        font: 400 13px / 21px 'open sans';
+                        font-size: 1.7rem;
+                        background-color: var(--mst-button-background-blue); //#424953
+                        width: 200px;
+                        padding: 10px 40px;
+                        text-align: center;
+                        color: #F4F5F0;
+                        border-radius: 10px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                        transition: 0.1s;
+    
+    
+                            &:hover, &:focus, &:active {
+                                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                                transform: scale(1.1);
+                            }
+                    }
+             }
+
+        }
+        
+    }
+
+    
+    .mst-pasteles-presentation-img {
+        display: none;
+        @include desktop {
+            display: flex;
+            align-items: center;
+                picture {
+                    width: 100%;
+                    
+                        img {
+                            width: 100%;
+                        }
+                }
+        }
+    }
+}
+
+
+
+.mst-section-products-blck {
+
+                h1 {
+                    padding-top: 5rem;
+                    font-weight: 300;
+                    margin: 0;
+                    color: $white;
+                    padding-bottom: 4rem;
+                    
+            }
+
+    .mst-section-products-blck-content-sections {
+
+            h2 {
+                color: $white;
+                text-align: center;
+                margin: 0 8rem;
+
+
+                @include tablet {
+                    text-align: left;
+                }
+            }
+
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+.mst-announcements-section {
+   padding: 3.8rem;
+
+       @include tablet {
+           padding: 8rem 8rem;
+        }
+        
+              h3 {
+                   margin-top: 2rem;
+               }
+
+        
+ }
+
+
+
+.mst-section-articles-block  {
+
+    background-color: #f2f0eb;
+    padding: 5rem 1.2rem;
+    
+    @include tablet {
+        padding: 5rem 1.5rem;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        color: hsla(0, 6%, 69%, 0.8);
+        height: 20px;
+        width: 2px;
+        // border-radius: 20px;
+        // background-color: #432323;
+        // width: 40px;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 2.8rem;
+    }
+
+
+
+    h1 {
+        font: 400 87px / 84px Abril Fatface;
+        font-size: 5.5rem;
+        color: $black;
+        margin-bottom: 1.25em;
+        display: flex;
+        align-items: initial;
+        justify-content: flex-start;
+        flex-direction: initial;
+        font-size: 1.125em;
+        font-weight: 600;
+        letter-spacing: initial;
+        line-height: initial;
+        padding: 0;
+    }
+
+
+    .mst-content-produtos {
+        padding: 0 3.5rem;  
+
+        @include tablet {
+            padding: 2rem 1.5rem;
+        }
+
+        @include desktop {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1380px;
+        }
+
+
+    }
+
+
+    .mst-advertisements-block {
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+            background-color: #f5f5f5;
+            margin-bottom: 5rem;
+            text-align: center;
+        
+
+            &:hover .mst-advertisement-imagen img {
+                transition: 0.5s;
+                transform: scale(1.06);
+            }
+
+            .mst-advertisement-imagen {
+
+                    img {
+                        width: 100%;
+                        -o-object-fit: cover;
+
+                    }
+                    overflow: hidden;
+                    position: relative;
+
+                    @include tablet {
+                        // border-radius: 5px 5px 0 0;
+                    }
+            }
+
+
+            .mst-content-advertisement {
+                padding: 1rem 3rem;
+                
+
+                @include tablet {
+                    padding: 1rem;
+                }
+
+                @include desktop {
+
+                }
+
+                h3 {
+                    margin: 0;
+                    font-size: 1.6rem;
+                    font-weight: 500;
+                    text-align: left;
+                }
+
+                .mst-hr-products-secction {
+                    border: .2px solid #bababa;
+                }
+
+                .mst-description-desserts {
+                    font-size: 1.3rem;
+                    font-weight: 200;
+                    text-align: left;
+                    margin: 0;
+                }
+                
+                p {
+                    font-size: 1.3rem;
+                    font-weight: 200;
+                    text-align: left;
+                    margin: 1rem 0;
+
+                    i {
+                        margin: 0 1rem;
+                        color: #432323;   // #481926
+                    }
+                }
+
+
+                .mst-btn-advertisements-position {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: .5rem;
+
+
+                    .mst-btns {
+                        font: 400 13px / 21px 'open sans';
+                        font-size: 1.7rem;
+                        background-color: var(--mst-button-background-blue); //#424953
+                        width: 500px;
+                        text-align: center;
+                        color: #F4F5F0;
+                        border-radius: 10px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                        transition: 0.1s;
+                        padding: 10px 40px;
+
+
+                        @include desktop {
+                            padding: 10px 20px;
+                        }
+    
+    
+                            // &:hover, &:focus, &:active {
+                            //     // box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                            //     transform: scale(1.04);
+                            // }
+                    }
+            }
+            
+        }
+    }
+}
+
+
+
