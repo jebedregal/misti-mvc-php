@@ -240,7 +240,7 @@ class ActiveRecord {
 
         // Liberar la mamoria
         $resultado->free();
-
+        
         // Retornar los resultados
         return $array;
     }
