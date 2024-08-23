@@ -29,7 +29,7 @@
                             color: $white;
                             text-align: center;
                             font-weight: 200;
-                            font: 400 87px / 84px Abril Fatface;
+                            font: 400 6vw / 5.5vw 'Abril Fatface', sans-serif;
                             font-size: 5.2rem;
                             margin-top: 0;
 
@@ -133,7 +133,7 @@
 
                 h1 {
                     text-align: left;
-                    font: 400 87px / 84px Abril Fatface;
+                    font: 400 6vw / 5.5vw 'Abril Fatface', sans-serif;
                     font-size: 7rem;
 
                     @include desktop {

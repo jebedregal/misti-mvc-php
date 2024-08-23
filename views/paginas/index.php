@@ -70,7 +70,7 @@
   
     <section class="img-bar-contact-separation">
             <div class="mst-tittle-content-block">
-                <h2>Você pode ver nosso cardápio completo</h2>
+                <h2>Nosso cardápio completo</h2>
                 <p>Veja nossa mais ampla gastronomia e faça seu pedido.</p>
 
 
@@ -119,7 +119,7 @@
 
     <section class="mst-img-contact-section-block">
             <div class="mst-content-contact-block">
-                <h2>Você pode entrar a nosso Instagram</h2>
+                <h2>Nosso Instagram</h2>
                 <p>Entre em contato conosco no Instagram ou WhatsApp para fazer seu pedido.</p>
 
                 <div class="mst-btn-separation-block">

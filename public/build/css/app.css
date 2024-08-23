@@ -408,13 +408,22 @@ h1, h2, h3 {
   font-weight: 300;
 }
 
+@font-face {
+  font-family: "Abril Fatface";
+  font-weight: 400;
+  font-style: normal;
+}
 h1 {
   font-size: 4rem;
   text-align: center;
+  font: 400 87px/84px Abril Fatface;
+  font-family: "Abril Fatface";
 }
 
 h2 {
   font-size: 3.4rem;
+  font: 400 87px/47px Abril Fatface;
+  font-family: "Abril Fatface";
 }
 
 h3 {
@@ -950,7 +959,6 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 87px/84px Abril Fatface;
   font-size: 5.2rem;
   margin-top: 0;
 }
@@ -1065,7 +1073,6 @@ footer .mst-btn-top-head {
 }
 .mst-cardapio-content-section .mst-cardapio-content .first-content-mst-section h1 {
   text-align: center;
-  font: 400 87px/84px Abril Fatface;
   font-size: 7rem;
   margin: 2rem 0;
 }
@@ -1212,7 +1219,6 @@ footer .mst-btn-top-head {
   font-size: 2.8rem;
 }
 .mst-section-articles-block h1 {
-  font: 400 87px/84px Abril Fatface;
   font-size: 5.5rem;
   color: #000000;
   margin-bottom: 1.25em;
@@ -5114,7 +5120,7 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 87px/84px Abril Fatface;
+  font: 400 6vw/5.5vw "Abril Fatface", sans-serif;
   font-size: 5.2rem;
   margin-top: 0;
 }
@@ -5196,7 +5202,7 @@ footer .mst-btn-top-head {
 }
 .content-first-privacidade-tittle-mst-section h1 {
   text-align: left;
-  font: 400 87px/84px Abril Fatface;
+  font: 400 6vw/5.5vw "Abril Fatface", sans-serif;
   font-size: 7rem;
 }
 @media (min-width: 1200px) {
@@ -5318,7 +5324,7 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 87px/84px Abril Fatface;
+  font: 400 6vw/5.5vw "Abril Fatface", sans-serif;
   font-size: 5.2rem;
   margin-top: 0;
 }
@@ -5400,7 +5406,7 @@ footer .mst-btn-top-head {
 }
 .content-first-troca-de-produto-tittle-mst-section h1 {
   text-align: center;
-  font: 400 87px/84px Abril Fatface;
+  font: 400 6vw/5.5vw "Abril Fatface", sans-serif;
   font-size: 7rem;
 }
 @media (min-width: 1200px) {
@@ -5517,7 +5523,7 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 87px/84px Abril Fatface;
+  font: 400 6vw/5.5vw "Abril Fatface", sans-serif;
   font-size: 5.2rem;
   margin-top: 0;
 }
@@ -5599,7 +5605,7 @@ footer .mst-btn-top-head {
 }
 .content-first-termos-de-uso-tittle-mst-section h1 {
   text-align: left;
-  font: 400 87px/84px Abril Fatface;
+  font: 400 6vw/5.5vw "Abril Fatface", sans-serif;
   font-size: 7rem;
 }
 @media (min-width: 1200px) {
@@ -5725,7 +5731,7 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 87px/84px Abril Fatface;
+  font: 400 6vw/5.5vw "Abril Fatface", sans-serif;
   font-size: 5.2rem;
   margin-top: 0;
 }
@@ -5808,7 +5814,7 @@ footer .mst-btn-top-head {
 }
 .content-first-cookies-tittle-mst-section h1 {
   text-align: left;
-  font: 400 87px/84px Abril Fatface;
+  font: 400 6vw/5.5vw "Abril Fatface", sans-serif;
   font-size: 7rem;
 }
 @media (min-width: 1200px) {
