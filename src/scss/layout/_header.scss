@@ -45,7 +45,6 @@
                             color: $white;
                             text-align: center;
                             font-weight: 200;
-                            font: 400 87px / 84px Abril Fatface;
                             font-size: 5.2rem;
                             
                             @include desktop {
@@ -97,11 +96,12 @@
 
     
                        .mst-btns {
-                        font: 400 13px / 21px 'open sans';
+                        font-family: 'Abril Fatface';
+                        line-height: 1.3125rem;
                         font-size: 1.7rem;
                         background-color: var(--mst-button-background-pink); //#424953  #763A53
                         width: 200px;
-                        padding: 10px 40px;
+                        padding: 15px 20px;
                         text-align: center;
                         color: #F4F5F0;
                         border-radius: 10px;
@@ -140,7 +140,6 @@
         max-width: 1280px;
 
             h2 {
-                font: 400 87px / 58px Abril Fatface;
                 font-size: 3rem;
                 font-weight: 200;
                 margin: 0;
@@ -157,24 +156,3 @@
     }
 }
 
-
-// .mst-principal-banner-head {
-//     background-color: #F4F5F0;
-
-//         .mst-principal-banner-content {
-
-//             padding: 6rem;
-
-//             h1 {
-//                 font: 400 87px / 54px Abril Fatface;
-//                 font-size: 3rem;
-//                 margin: 0;
-//                 // color: var(--background-sections);
-//             }
-
-//             p {
-//                 text-align: center;
-//                 // color: var(--background-sections);
-//             }
-//         }
-// }

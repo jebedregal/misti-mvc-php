@@ -58,7 +58,8 @@
                 h1 {
                     
                     text-align: center;
-                    font: 400 87px / 84px Abril Fatface;
+                    line-height: 6.6875rem; /* Ajuste equivalente a 84px */
+                    font-family: 'Abril Fatface';
                     font-size: 7rem;
                     margin: 2rem 0;
 
@@ -108,8 +109,6 @@
                     }
                     
                     text-align: center;
-                    // font: 400 13px / 21px 'open sans';
-                    // font-size: 1.7rem;
                     font-size: 1.5rem;
                     font-weight: 250;
                     margin: 1rem 1rem 3rem 1rem; // margin: 3rem 1rem;
@@ -129,11 +128,12 @@
                     }
 
                     .mst-btns {
-                        font: 400 13px / 21px 'open sans';
+                        font-family: 'Abril Fatface';
+                        line-height: 1.3125rem;
                         font-size: 1.7rem;
                         background-color: var(--mst-button-background-blue); //#424953
                         width: 200px;
-                        padding: 10px 40px;
+                        padding: 15px 20px;
                         text-align: center;
                         color: #F4F5F0;
                         border-radius: 10px;

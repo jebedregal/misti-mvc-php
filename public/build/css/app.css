@@ -408,26 +408,26 @@ h1, h2, h3 {
   font-weight: 300;
 }
 
-@font-face {
-  font-family: "Abril Fatface";
-  font-weight: 400;
-  font-style: normal;
-}
 h1 {
-  font-size: 4rem;
   text-align: center;
-  font: 400 87px/84px Abril Fatface;
+  font-weight: 400;
+  font-size: 5.4375rem; /* Ajuste equivalente a 87px */
+  line-height: 7.6875rem; /* Ajuste equivalente a 84px */
   font-family: "Abril Fatface";
 }
 
 h2 {
-  font-size: 3.4rem;
-  font: 400 87px/47px Abril Fatface;
+  font-weight: 400;
+  font-size: 5.4375rem; /* Ajuste equivalente a 87px */
+  line-height: 4.3rem; /* Ajuste equivalente a 47px */
   font-family: "Abril Fatface";
 }
 
 h3 {
   font-size: 2rem;
+  font-weight: 400;
+  line-height: 4.3rem; /* Ajuste equivalente a 47px */
+  font-family: "Abril Fatface";
 }
 
 h4 {
@@ -837,7 +837,6 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 87px/84px Abril Fatface;
   font-size: 5.2rem;
 }
 @media (min-width: 1200px) {
@@ -881,11 +880,12 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-first-bg-image-header .mst-title-content-block .mst-btn-separation-block .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -916,7 +916,6 @@ footer .mst-btn-top-head {
   max-width: 1280px;
 }
 .mst-block-description-Misti .mst-block-content-description h2 {
-  font: 400 87px/58px Abril Fatface;
   font-size: 3rem;
   font-weight: 200;
   margin: 0;
@@ -1003,11 +1002,12 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-cardapio .mst-cardapio-title-content-block .mst-btn-cardapio-separation-block .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -1138,11 +1138,12 @@ footer .mst-btn-top-head {
   }
 }
 .mst-cardapio-content-section .mst-cardapio-content .first-content-mst-section .mst-btn-cardapio-position .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -1305,7 +1306,8 @@ footer .mst-btn-top-head {
   padding: 0.5rem;
 }
 .mst-section-articles-block .mst-advertisements-block .mst-content-advertisement .mst-btn-advertisements-position .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 500px;
@@ -1314,7 +1316,7 @@ footer .mst-btn-top-head {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: 0.1s;
-  padding: 10px 40px;
+  padding: 15px 20px;
 }
 @media (min-width: 1200px) {
   .mst-section-articles-block .mst-advertisements-block .mst-content-advertisement .mst-btn-advertisements-position .mst-btns {
@@ -1395,7 +1397,8 @@ footer .mst-btn-top-head {
 }
 .mst-section-sobrenos-content .content-tittle-mst-section h1 {
   text-align: center;
-  font: 400 87px/84px Abril Fatface;
+  line-height: 4.6875rem; /* Ajuste equivalente a 84px */
+  font-family: "Abril Fatface";
   font-size: 7rem;
   margin: 2rem 0;
 }
@@ -1458,11 +1461,12 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-sobrenos-content .content-tittle-mst-section .mst-btn-position .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -1507,7 +1511,6 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 87px/84px Abril Fatface;
   font-size: 5.2rem;
   margin-top: 0;
 }
@@ -1553,11 +1556,12 @@ footer .mst-btn-top-head {
   margin: 2rem 0;
 }
 .mst-first-bg-image-sobrenos .mst-sobrenos-title-content-block .mst-sobrenos-btn-separation-block .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 40px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -1591,7 +1595,6 @@ footer .mst-btn-top-head {
 }
 .content-sobrenos-tittle-mst-section h1 {
   text-align: left;
-  font: 400 87px/84px Abril Fatface;
   font-size: 6rem;
 }
 @media (min-width: 768px) {
@@ -1628,7 +1631,6 @@ footer .mst-btn-top-head {
   text-align: center;
 }
 .content-sobrenos-tittle-mst-section .mst-sobrenos-text-complete h2 {
-  font: 400 87px/48px Abril Fatface;
   font-size: 3rem;
 }
 .content-sobrenos-tittle-mst-section .mst-btn-position-sobrenos {
@@ -1644,11 +1646,12 @@ footer .mst-btn-top-head {
   }
 }
 .content-sobrenos-tittle-mst-section .mst-btn-position-sobrenos .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 40px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -1672,8 +1675,6 @@ footer .mst-btn-top-head {
 .mst-paragraph-separation-background h1 {
   margin: 0;
   text-align: left;
-  font: 400 87px/84px Abril Fatface;
-  font-size: 6rem;
 }
 
 .mst-bg-image-meioAmbiente {
@@ -1704,8 +1705,6 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 87px/84px Abril Fatface;
-  font-size: 5.2rem;
   margin-top: 0;
 }
 @media (min-width: 1200px) {
@@ -1749,11 +1748,12 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-meioAmbiente .mst-meioAmbiente-title-content-block .mst-btn-meioAmbiente-separation-block .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -1805,13 +1805,11 @@ footer .mst-btn-top-head {
   }
 }
 .content-meioAmbiente-tittle-mst-section h2 {
-  font: 400 87px/48px Abril Fatface;
   font-size: 2.5rem;
   margin: 0;
 }
 .content-meioAmbiente-tittle-mst-section h1 {
   text-align: left;
-  font: 400 87px/84px Abril Fatface;
   font-size: 7rem;
 }
 @media (min-width: 1200px) {
@@ -1876,11 +1874,12 @@ footer .mst-btn-top-head {
   }
 }
 .content-meioAmbiente-tittle-mst-section .mst-btn-position-meioAmbiente .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -1894,7 +1893,12 @@ footer .mst-btn-top-head {
 
 .mst-paragraph-separation-meio-ambiente-background {
   background-color: var(--mst-bar-background-sections);
-  padding: 5rem 15rem;
+  padding: 3rem;
+}
+@media (min-width: 1200px) {
+  .mst-paragraph-separation-meio-ambiente-background {
+    padding: 5rem 15rem;
+  }
 }
 .mst-paragraph-separation-meio-ambiente-background .mst-paragrph-background-content-meio-ambiente {
   margin: 0 auto;
@@ -1903,7 +1907,6 @@ footer .mst-btn-top-head {
 .mst-paragraph-separation-meio-ambiente-background .mst-paragrph-background-content-meio-ambiente h1 {
   margin: 0;
   text-align: left;
-  font: 400 87px/84px Abril Fatface;
   font-size: 6rem;
 }
 
@@ -1935,8 +1938,6 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 87px/84px Abril Fatface;
-  font-size: 5.2rem;
   margin-top: 0;
 }
 @media (min-width: 1200px) {
@@ -1980,11 +1981,12 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-comunidade .mst-comunidade-title-content-block .mst-btn-comunidade-separation-block .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -2036,13 +2038,11 @@ footer .mst-btn-top-head {
   }
 }
 .content-comunidade-tittle-mst-section h2 {
-  font: 400 87px/48px Abril Fatface;
   font-size: 2.8rem;
   margin: 0;
 }
 .content-comunidade-tittle-mst-section h1 {
   text-align: left;
-  font: 400 87px/84px Abril Fatface;
   font-size: 5.5rem;
 }
 @media (min-width: 768px) {
@@ -2109,11 +2109,12 @@ footer .mst-btn-top-head {
   }
 }
 .content-comunidade-tittle-mst-section .mst-btn-position-comunidade .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -2127,7 +2128,12 @@ footer .mst-btn-top-head {
 
 .mst-paragraph-separation-background-comunidade {
   background-color: var(--mst-bar-background-sections);
-  padding: 5rem 15rem;
+  padding: 3rem;
+}
+@media (min-width: 1200px) {
+  .mst-paragraph-separation-background-comunidade {
+    padding: 5rem 15rem;
+  }
 }
 .mst-paragraph-separation-background-comunidade .mst-paragraph-separation-background-comunidade-content {
   margin: 0 auto;
@@ -2136,7 +2142,6 @@ footer .mst-btn-top-head {
 .mst-paragraph-separation-background-comunidade .mst-paragraph-separation-background-comunidade-content h1 {
   margin: 0;
   text-align: left;
-  font: 400 87px/84px Abril Fatface;
   font-size: 6rem;
 }
 
@@ -2168,8 +2173,6 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 87px/84px Abril Fatface;
-  font-size: 5.2rem;
   margin-top: 0;
 }
 @media (min-width: 1200px) {
@@ -2213,11 +2216,12 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-seu-pedido .mst-seu-pedido-title-content-block .mst-btn-seu-pedido-separation-block .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -2272,13 +2276,11 @@ footer .mst-btn-top-head {
   }
 }
 .content-seu-pedido-tittle-mst-section h2 {
-  font: 400 87px/84px Abril Fatface;
   font-size: 2.5rem;
   margin: 0;
 }
 .content-seu-pedido-tittle-mst-section h1 {
   text-align: left;
-  font: 400 87px/84px Abril Fatface;
   font-size: 5.5rem;
 }
 @media (min-width: 1200px) {
@@ -2333,7 +2335,6 @@ footer .mst-btn-top-head {
   }
 }
 .content-seu-pedido-tittle-mst-section .mst-seu-pedido-text-complete h2 {
-  font: 400 87px/48px Abril Fatface;
   font-size: 3rem;
   margin: 0;
   margin-bottom: 2.5rem;
@@ -2368,11 +2369,12 @@ footer .mst-btn-top-head {
   }
 }
 .content-seu-pedido-tittle-mst-section .mst-btn-position-seu-pedido .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: #424953;
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -2428,13 +2430,11 @@ footer .mst-btn-top-head {
   }
 }
 .content-seu-pedido-tittle-mst-section-int h2 {
-  font: 400 87px/84px Abril Fatface;
   font-size: 2.5rem;
   margin: 0;
 }
 .content-seu-pedido-tittle-mst-section-int h1 {
   text-align: left;
-  font: 400 87px/84px Abril Fatface;
   font-size: 5.5rem;
 }
 @media (min-width: 1200px) {
@@ -2489,7 +2489,6 @@ footer .mst-btn-top-head {
   }
 }
 .content-seu-pedido-tittle-mst-section-int .mst-seu-pedido-text-complete-int h2 {
-  font: 400 87px/48px Abril Fatface;
   font-size: 3rem;
   margin: 0;
   margin-bottom: 2.5rem;
@@ -2521,11 +2520,12 @@ footer .mst-btn-top-head {
   }
 }
 .content-seu-pedido-tittle-mst-section-int .mst-btn-position-seu-pedido-int .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: #424953;
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -2565,7 +2565,6 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 87px/84px Abril Fatface;
   font-size: 5.2rem;
   margin-top: 0;
 }
@@ -2610,11 +2609,12 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-releases .mst-releases-title-content-block .mst-btn-releases-separation-block .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -2647,7 +2647,6 @@ footer .mst-btn-top-head {
 }
 .content-releases-tittle-mst-section h1 {
   text-align: left;
-  font: 400 87px/84px Abril Fatface;
   font-size: 6rem;
 }
 @media (min-width: 1200px) {
@@ -2678,7 +2677,6 @@ footer .mst-btn-top-head {
   }
 }
 .content-releases-tittle-mst-section h2 {
-  font: 400 87px/48px Abril Fatface;
   font-size: 3rem;
 }
 .content-releases-tittle-mst-section .mst-releases-text-complete {
@@ -2715,11 +2713,12 @@ footer .mst-btn-top-head {
   }
 }
 .content-releases-tittle-mst-section .mst-btn-position-releases .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -2743,7 +2742,6 @@ footer .mst-btn-top-head {
 .mst-paragraph-releases-separation-background h1 {
   margin: 0;
   text-align: left;
-  font: 400 87px/84px Abril Fatface;
   font-size: 6rem;
 }
 .mst-paragraph-releases-separation-background p {
@@ -2809,7 +2807,8 @@ footer .mst-btn-top-head {
 }
 .mst-contato-section-block .mst-contato-content .first-contato-content-mst-section h1 {
   text-align: center;
-  font: 400 87px/84px Abril Fatface;
+  line-height: 6.6875rem; /* Ajuste equivalente a 84px */
+  font-family: "Abril Fatface";
   font-size: 7rem;
   margin: 2rem 0;
 }
@@ -2875,11 +2874,12 @@ footer .mst-btn-top-head {
   }
 }
 .mst-contato-section-block .mst-contato-content .first-contato-content-mst-section .mst-btn-contato-position .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -3049,7 +3049,6 @@ footer .mst-btn-top-head {
   padding-top: 4rem;
 }
 .mst-blog-section-block h1 {
-  font: 400 87px/84px Abril Fatface;
   font-size: 5.5rem;
 }
 @media (min-width: 1200px) {
@@ -3159,11 +3158,12 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-blog-content-posts .mst-blog-content-text .mst-btn-section-blog-posts-home .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 150px;
-  padding: 10px 20px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -3203,8 +3203,6 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 87px/84px Abril Fatface;
-  font-size: 5.2rem;
   margin-top: 0;
 }
 @media (min-width: 1200px) {
@@ -3249,11 +3247,12 @@ footer .mst-btn-top-head {
   margin: 3rem 0;
 }
 .mst-bg-header-blog .mst-blog-content-block .mst-btn-blog-separation .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -3269,7 +3268,6 @@ footer .mst-btn-top-head {
   position: relative;
   top: 15rem;
   color: #FFFFFF;
-  font: 400 87px/84px Abril Fatface;
   font-size: 6rem;
 }
 
@@ -3313,7 +3311,6 @@ footer .mst-btn-top-head {
 }
 .mst-posts-content-section .mst-posts-content-posts .first-content-mst-section-posts h2 {
   font-weight: 150;
-  font: 400 87px/45px Abril Fatface;
   font-size: 3rem;
 }
 .mst-posts-content-section .mst-posts-content-posts .first-content-mst-section-posts h3 {
@@ -3362,11 +3359,12 @@ footer .mst-btn-top-head {
   }
 }
 .mst-posts-content-section .mst-posts-content-posts .first-content-mst-section-posts .mst-btn-posts-position .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -3447,7 +3445,6 @@ footer .mst-btn-top-head {
 }
 .mst-section-posts-content .content-tittle-mst-section-posts h2 {
   font-weight: 150;
-  font: 400 87px/45px Abril Fatface;
   font-size: 3rem;
 }
 .mst-section-posts-content .content-tittle-mst-section-posts h3 {
@@ -3495,11 +3492,12 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-posts-content .content-tittle-mst-section-posts .mst-btn-posts-position .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -3610,11 +3608,12 @@ footer .mst-btn-top-head {
   }
 }
 .mst-posts-content-section .content-tittle-mst-section-posts .mst-btn-posts-position .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -3654,8 +3653,6 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 87px/84px Abril Fatface;
-  font-size: 5.2rem;
   margin-top: 0;
 }
 @media (min-width: 1200px) {
@@ -3700,11 +3697,12 @@ footer .mst-btn-top-head {
   margin: 3rem 0;
 }
 .mst-first-post-macarons-bg .mst-first-post-title-content .mst-btn-first-post-separation .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -3757,13 +3755,11 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-first-post-content .content-first-post-tittle-mst-section h2 {
-  font: 400 87px/84px Abril Fatface;
   font-size: 2.5rem;
   margin: 0;
 }
 .mst-section-first-post-content .content-first-post-tittle-mst-section h1 {
   text-align: left;
-  font: 400 87px/84px Abril Fatface;
   font-size: 5.5rem;
 }
 @media (min-width: 1200px) {
@@ -3817,7 +3813,6 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-first-post-content .content-first-post-tittle-mst-section .mst-first-post-text-complete h2 {
-  font: 400 87px/48px Abril Fatface;
   font-size: 3rem;
   margin: 0;
   margin-bottom: 2.5rem;
@@ -3835,11 +3830,12 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-first-post-content .content-first-post-tittle-mst-section .mst-btn-position-first-post .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -3879,8 +3875,6 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 87px/84px Abril Fatface;
-  font-size: 5.2rem;
   margin-top: 0;
 }
 @media (min-width: 1200px) {
@@ -3925,11 +3919,12 @@ footer .mst-btn-top-head {
   margin: 3rem 0;
 }
 .mst-second-post-biscoitos-da-vovo-bg .mst-second-post-title-content .mst-btn-second-post-separation .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -3987,13 +3982,11 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-second-post-content .content-second-post-tittle-mst-section h2 {
-  font: 400 87px/84px Abril Fatface;
   font-size: 2.5rem;
   margin: 0;
 }
 .mst-section-second-post-content .content-second-post-tittle-mst-section h1 {
   text-align: left;
-  font: 400 87px/84px Abril Fatface;
   font-size: 5.5rem;
 }
 @media (min-width: 1200px) {
@@ -4051,7 +4044,6 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-second-post-content .content-second-post-tittle-mst-section .mst-second-post-text-complete h2 {
-  font: 400 87px/48px Abril Fatface;
   font-size: 3rem;
   margin: 0;
   margin-bottom: 2.5rem;
@@ -4086,11 +4078,12 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-second-post-content .content-second-post-tittle-mst-section .mst-btn-position-second-post .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -4130,8 +4123,6 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 87px/84px Abril Fatface;
-  font-size: 5.2rem;
   margin-top: 0;
 }
 @media (min-width: 1200px) {
@@ -4176,11 +4167,12 @@ footer .mst-btn-top-head {
   margin: 3rem 0;
 }
 .mst-third-post-macarons-bg .mst-third-post-title-content .mst-btn-third-post-separation .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -4239,13 +4231,11 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-third-post-content .content-third-post-tittle-mst-section h2 {
-  font: 400 87px/84px Abril Fatface;
   font-size: 2.5rem;
   margin: 0;
 }
 .mst-section-third-post-content .content-third-post-tittle-mst-section h1 {
   text-align: left;
-  font: 400 87px/84px Abril Fatface;
   font-size: 5.5rem;
 }
 @media (min-width: 1200px) {
@@ -4300,7 +4290,6 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-third-post-content .content-third-post-tittle-mst-section .mst-third-post-text-complete h2 {
-  font: 400 87px/48px Abril Fatface;
   font-size: 3rem;
   margin: 0;
   margin-bottom: 2.5rem;
@@ -4318,11 +4307,12 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-third-post-content .content-third-post-tittle-mst-section .mst-btn-position-third-post .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -4349,7 +4339,8 @@ footer .mst-btn-top-head {
   background-attachment: fixed;
 }
 .mst-img-contact-section-block h2 {
-  font: 400 87px/48px Abril Fatface;
+  line-height: 5rem; /* Ajuste equivalente a 47px */
+  font-family: "Abril Fatface";
   font-size: 3.5rem;
   font-weight: 200;
   margin: 0;
@@ -4365,7 +4356,7 @@ footer .mst-btn-top-head {
   text-align: center;
   padding: 0 2rem;
   position: relative;
-  bottom: 2.5rem;
+  bottom: 1rem;
 }
 @media (min-width: 768px) {
   .mst-img-contact-section-block .mst-content-contact-block {
@@ -4403,11 +4394,13 @@ footer .mst-btn-top-head {
   }
 }
 .mst-img-contact-section-block .mst-btn-separation-block .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  font-size: 0.8125rem;
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -4434,7 +4427,8 @@ footer .mst-btn-top-head {
   background-attachment: fixed;
 }
 .img-bar-contact-separation h2 {
-  font: 400 87px/48px Abril Fatface;
+  line-height: 5rem; /* Ajuste equivalente a 47px */
+  font-family: "Abril Fatface";
   font-size: 3.5rem;
   font-weight: 200;
   margin: 0;
@@ -4445,7 +4439,7 @@ footer .mst-btn-top-head {
   text-align: left;
   padding: 0 2rem;
   position: relative;
-  bottom: 2rem;
+  bottom: 1.2rem;
 }
 @media (min-width: 768px) {
   .img-bar-contact-separation .mst-tittle-content-block {
@@ -4486,11 +4480,13 @@ footer .mst-btn-top-head {
   }
 }
 .img-bar-contact-separation .mst-btn-separation-block .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  font-size: 0.8125rem;
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -4518,7 +4514,8 @@ footer .mst-btn-top-head {
 }
 .mst-background-separation-block h2 {
   margin: 1.5rem;
-  font: 400 87px/45px Abril Fatface;
+  font-size: 5.4375rem; /* Ajuste equivalente a 87px */
+  line-height: 4rem; /* Ajuste equivalente a 47px */
   font-size: 3rem;
   color: #FFFFFF;
   font-weight: 200;
@@ -4552,11 +4549,13 @@ footer .mst-btn-top-head {
   }
 }
 .mst-background-separation-block .mst-btn-separation-block .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  font-size: 0.8125rem;
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -5120,8 +5119,6 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 6vw/5.5vw "Abril Fatface", sans-serif;
-  font-size: 5.2rem;
   margin-top: 0;
 }
 @media (min-width: 1200px) {
@@ -5165,11 +5162,12 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-privacidade .mst-privacidade-title-content-block .mst-btn-privacidade-separation-block .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-purple);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -5202,7 +5200,6 @@ footer .mst-btn-top-head {
 }
 .content-first-privacidade-tittle-mst-section h1 {
   text-align: left;
-  font: 400 6vw/5.5vw "Abril Fatface", sans-serif;
   font-size: 7rem;
 }
 @media (min-width: 1200px) {
@@ -5260,11 +5257,9 @@ footer .mst-btn-top-head {
   padding: 0;
 }
 .content-first-privacidade-tittle-mst-section .mst-first-privacidade-text-complete h2 {
-  font: 400 87px/48px Abril Fatface;
   font-size: 3rem;
 }
 .content-first-privacidade-tittle-mst-section .mst-first-privacidade-text-complete h3 {
-  font: 400 87px/48px Abril Fatface;
   font-size: 2rem;
 }
 .content-first-privacidade-tittle-mst-section .mst-btn-position-first-privacidade {
@@ -5280,11 +5275,12 @@ footer .mst-btn-top-head {
   }
 }
 .content-first-privacidade-tittle-mst-section .mst-btn-position-first-privacidade .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -5324,8 +5320,6 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 6vw/5.5vw "Abril Fatface", sans-serif;
-  font-size: 5.2rem;
   margin-top: 0;
 }
 @media (min-width: 1200px) {
@@ -5369,11 +5363,12 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-troca-de-produto .mst-troca-de-produto-title-content-block .mst-btn-troca-de-produto-separation-block .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-purple);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -5396,7 +5391,7 @@ footer .mst-btn-top-head {
 }
 @media (min-width: 768px) {
   .content-first-troca-de-produto-tittle-mst-section p {
-    padding: 0 4rem;
+    padding: 0;
   }
 }
 @media (min-width: 1200px) {
@@ -5406,7 +5401,6 @@ footer .mst-btn-top-head {
 }
 .content-first-troca-de-produto-tittle-mst-section h1 {
   text-align: center;
-  font: 400 6vw/5.5vw "Abril Fatface", sans-serif;
   font-size: 7rem;
 }
 @media (min-width: 1200px) {
@@ -5422,9 +5416,8 @@ footer .mst-btn-top-head {
   }
 }
 .content-first-troca-de-produto-tittle-mst-section p {
-  text-align: center;
   font-size: 1.7rem;
-  margin: 3rem 1rem;
+  margin: 3rem 0;
 }
 @media (min-width: 1200px) {
   .content-first-troca-de-produto-tittle-mst-section p {
@@ -5463,7 +5456,6 @@ footer .mst-btn-top-head {
   padding: 0;
 }
 .content-first-troca-de-produto-tittle-mst-section .mst-first-troca-de-produto-text-complete h2 {
-  font: 400 87px/48px Abril Fatface;
   font-size: 3rem;
 }
 .content-first-troca-de-produto-tittle-mst-section .mst-btn-position-first-troca-de-produto {
@@ -5479,11 +5471,12 @@ footer .mst-btn-top-head {
   }
 }
 .content-first-troca-de-produto-tittle-mst-section .mst-btn-position-first-troca-de-produto .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -5523,8 +5516,6 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 6vw/5.5vw "Abril Fatface", sans-serif;
-  font-size: 5.2rem;
   margin-top: 0;
 }
 @media (min-width: 1200px) {
@@ -5568,11 +5559,12 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-termos-de-uso .mst-termos-de-uso-title-content-block .mst-btn-termos-de-uso-separation-block .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-purple);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -5605,7 +5597,6 @@ footer .mst-btn-top-head {
 }
 .content-first-termos-de-uso-tittle-mst-section h1 {
   text-align: left;
-  font: 400 6vw/5.5vw "Abril Fatface", sans-serif;
   font-size: 7rem;
 }
 @media (min-width: 1200px) {
@@ -5666,11 +5657,9 @@ footer .mst-btn-top-head {
   margin: 0;
 }
 .content-first-termos-de-uso-tittle-mst-section .mst-first-termos-de-uso-text-complete h2 {
-  font: 400 87px/48px Abril Fatface;
   font-size: 3rem;
 }
 .content-first-termos-de-uso-tittle-mst-section .mst-first-termos-de-uso-text-complete h3 {
-  font: 400 87px/48px Abril Fatface;
   font-size: 2rem;
 }
 .content-first-termos-de-uso-tittle-mst-section .mst-btn-position-first-termos-de-uso {
@@ -5687,11 +5676,12 @@ footer .mst-btn-top-head {
   }
 }
 .content-first-termos-de-uso-tittle-mst-section .mst-btn-position-first-termos-de-uso .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 30px;
+  padding: 15px 30px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -5731,8 +5721,6 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font: 400 6vw/5.5vw "Abril Fatface", sans-serif;
-  font-size: 5.2rem;
   margin-top: 0;
 }
 @media (min-width: 1200px) {
@@ -5777,11 +5765,12 @@ footer .mst-btn-top-head {
   margin: 3rem 0;
 }
 .mst-bg-image-cookies .mst-cookies-title-content-block .mst-btn-cookies-separation-block .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-purple);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -5814,7 +5803,6 @@ footer .mst-btn-top-head {
 }
 .content-first-cookies-tittle-mst-section h1 {
   text-align: left;
-  font: 400 6vw/5.5vw "Abril Fatface", sans-serif;
   font-size: 7rem;
 }
 @media (min-width: 1200px) {
@@ -5868,11 +5856,9 @@ footer .mst-btn-top-head {
   padding-bottom: 0;
 }
 .content-first-cookies-tittle-mst-section .mst-first-cookies-text-complete h2 {
-  font: 400 87px/48px Abril Fatface;
   font-size: 3rem;
 }
 .content-first-cookies-tittle-mst-section .mst-first-cookies-text-complete h3 {
-  font: 400 87px/48px Abril Fatface;
   font-size: 2rem;
 }
 .content-first-cookies-tittle-mst-section .mst-btn-position-first-privacidade {
@@ -5888,11 +5874,12 @@ footer .mst-btn-top-head {
   }
 }
 .content-first-cookies-tittle-mst-section .mst-btn-position-first-privacidade .mst-btns {
-  font: 400 13px/21px "open sans";
+  font-family: "Abril Fatface";
+  line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 10px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;

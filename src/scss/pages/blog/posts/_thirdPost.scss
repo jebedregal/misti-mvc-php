@@ -28,8 +28,6 @@
                             color: $white;
                             text-align: center;
                             font-weight: 200;
-                            font: 400 87px / 84px Abril Fatface;
-                            font-size: 5.2rem;
                             margin-top: 0;
                             
                             @include desktop {
@@ -82,11 +80,12 @@
 
     
                        .mst-btns {
-                        font: 400 13px / 21px 'open sans';
+                        font-family: 'Abril Fatface';
+                        line-height: 1.3125rem;
                         font-size: 1.7rem;
                         background-color: var(--mst-button-background-pink); //#424953
                         width: 200px;
-                        padding: 10px 40px;
+                        padding: 15px 20px;
                         text-align: center;
                         color: #F4F5F0;
                         border-radius: 10px;
@@ -163,7 +162,6 @@
             // padding: 7rem 5rem 7rem 0;
         }
                     h2 {
-                        font: 400 87px / 84px Abril Fatface;
                         font-size: 2.5rem;
                         margin: 0;
                     }   
@@ -171,7 +169,6 @@
 
                     h1 {
                         text-align: left; //center
-                        font: 400 87px / 84px Abril Fatface;
                         font-size: 5.5rem;
 
                         @include desktop {
@@ -189,7 +186,6 @@
 
                     p {
                         text-align: left; //center
-                        // font: 400 13px / 21px 'open sans';
                         font-size: 1.7rem;
                         margin: 3rem 0;
                         padding: 0;
@@ -235,7 +231,6 @@
                         }
 
                         h2 {
-                            font: 400 87px / 48px Abril Fatface;
                             font-size: 3rem;
                             margin: 0;
                             margin-bottom: 2.5rem;
@@ -256,11 +251,12 @@
                             }
 
                             .mst-btns {
-                                font: 400 13px / 21px 'open sans';
+                                font-family: 'Abril Fatface';
+                                line-height: 1.3125rem;
                                 font-size: 1.7rem;
                                 background-color: var(--mst-button-background-blue); //#424953
                                 width: 200px;
-                                padding: 10px 40px;
+                                padding: 15px 20px;
                                 text-align: center;
                                 color: #F4F5F0;
                                 border-radius: 10px;

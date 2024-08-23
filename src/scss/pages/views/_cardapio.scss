@@ -81,11 +81,12 @@
 
     
                        .mst-btns {
-                        font: 400 13px / 21px 'open sans';
+                        font-family: 'Abril Fatface';
+                        line-height: 1.3125rem;
                         font-size: 1.7rem;
                         background-color: var(--mst-button-background-pink); //#424953
                         width: 200px;
-                        padding: 10px 40px;
+                        padding: 15px 20px;
                         text-align: center;
                         color: #F4F5F0;
                         border-radius: 10px;
@@ -208,8 +209,6 @@
                     }
                     
                     text-align: center;
-                    // font: 400 13px / 21px 'open sans';
-                    // font-size: 1.7rem;
                     font-size: 1.5rem;
                     font-weight: 250;
                     margin: 1rem 1rem 3rem 1rem; // margin: 3rem 1rem;
@@ -229,11 +228,12 @@
                     }
 
                     .mst-btns {
-                        font: 400 13px / 21px 'open sans';
+                        font-family: 'Abril Fatface';
+                        line-height: 1.3125rem;
                         font-size: 1.7rem;
                         background-color: var(--mst-button-background-blue); //#424953
                         width: 200px;
-                        padding: 10px 40px;
+                        padding: 15px 20px;
                         text-align: center;
                         color: #F4F5F0;
                         border-radius: 10px;
@@ -461,7 +461,8 @@
 
 
                     .mst-btns {
-                        font: 400 13px / 21px 'open sans';
+                        font-family: 'Abril Fatface';
+                        line-height: 1.3125rem;
                         font-size: 1.7rem;
                         background-color: var(--mst-button-background-blue); //#424953
                         width: 500px;
@@ -470,7 +471,7 @@
                         border-radius: 10px;
                         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
                         transition: 0.1s;
-                        padding: 10px 40px;
+                        padding: 15px 20px;
 
 
                         @include desktop {

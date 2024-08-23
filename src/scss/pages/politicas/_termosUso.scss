@@ -28,8 +28,6 @@
                             color: $white;
                             text-align: center;
                             font-weight: 200;
-                            font: 400 6vw / 5.5vw 'Abril Fatface', sans-serif;
-                            font-size: 5.2rem;
                             margin-top: 0;
 
                             @include desktop {
@@ -79,11 +77,12 @@
 
     
                        .mst-btns {
-                        font: 400 13px / 21px 'open sans';
+                        font-family: 'Abril Fatface';
+                        line-height: 1.3125rem;
                         font-size: 1.7rem;
                         background-color: var(--mst-button-background-purple); //#424953
                         width: 200px;
-                        padding: 10px 40px;
+                        padding: 15px 20px;
                         text-align: center;
                         color: #F4F5F0;
                         border-radius: 10px;
@@ -139,7 +138,6 @@
                         font-size: 9rem;
                     }
                     text-align: left;
-                    font: 400 6vw / 5.5vw 'Abril Fatface', sans-serif;
                     font-size: 7rem;
                  }
 
@@ -153,7 +151,6 @@
                     }
                     
                     text-align: left;
-                    // font: 400 13px / 21px 'open sans';
                     font-size: 1.7rem;
                     margin: 3rem 0;
                     padding: 0;
@@ -194,12 +191,10 @@
                     }
 
                     h2 {
-                        font: 400 87px / 48px Abril Fatface;
                         font-size: 3rem;
                     }
 
                     h3 {
-                        font: 400 87px / 48px Abril Fatface;
                         font-size: 2rem;
                     }
             
@@ -219,11 +214,12 @@
                         }
 
                         .mst-btns {
-                            font: 400 13px / 21px 'open sans';
+                            font-family: 'Abril Fatface';
+                            line-height: 1.3125rem;
                             font-size: 1.7rem;
                             background-color: var(--mst-button-background-blue);
                             width: 200px;
-                            padding: 10px 30px;
+                            padding: 15px 30px;
                             text-align: center;
                             color: #F4F5F0;
                             border-radius: 10px;
