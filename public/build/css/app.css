@@ -408,26 +408,32 @@ h1, h2, h3 {
   font-weight: 300;
 }
 
+@font-face {
+  font-family: "LanderGrande";
+  src: url("/build/fonts/LanderGrande.woff2") format("woff2"), url("/build/fonts/LanderGrande.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 h1 {
   text-align: center;
   font-weight: 400;
   font-size: 5.4375rem; /* Ajuste equivalente a 87px */
   line-height: 7.6875rem; /* Ajuste equivalente a 84px */
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
 }
 
 h2 {
   font-weight: 400;
   font-size: 5.4375rem; /* Ajuste equivalente a 87px */
   line-height: 4.3rem; /* Ajuste equivalente a 47px */
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
 }
 
 h3 {
   font-size: 2rem;
   font-weight: 400;
   line-height: 4.3rem; /* Ajuste equivalente a 47px */
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
 }
 
 h4 {
@@ -880,7 +886,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-first-bg-image-header .mst-title-content-block .mst-btn-separation-block .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -1002,7 +1008,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-cardapio .mst-cardapio-title-content-block .mst-btn-cardapio-separation-block .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -1138,7 +1144,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-cardapio-content-section .mst-cardapio-content .first-content-mst-section .mst-btn-cardapio-position .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -1276,7 +1282,7 @@ footer .mst-btn-top-head {
 }
 .mst-section-articles-block .mst-advertisements-block .mst-content-advertisement h3 {
   margin: 0;
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 500;
   text-align: left;
 }
@@ -1306,7 +1312,7 @@ footer .mst-btn-top-head {
   padding: 0.5rem;
 }
 .mst-section-articles-block .mst-advertisements-block .mst-content-advertisement .mst-btn-advertisements-position .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -1398,7 +1404,7 @@ footer .mst-btn-top-head {
 .mst-section-sobrenos-content .content-tittle-mst-section h1 {
   text-align: center;
   line-height: 4.6875rem; /* Ajuste equivalente a 84px */
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   font-size: 7rem;
   margin: 2rem 0;
 }
@@ -1461,7 +1467,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-sobrenos-content .content-tittle-mst-section .mst-btn-position .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -1556,7 +1562,7 @@ footer .mst-btn-top-head {
   margin: 2rem 0;
 }
 .mst-first-bg-image-sobrenos .mst-sobrenos-title-content-block .mst-sobrenos-btn-separation-block .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -1646,7 +1652,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-sobrenos-tittle-mst-section .mst-btn-position-sobrenos .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -1748,7 +1754,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-meioAmbiente .mst-meioAmbiente-title-content-block .mst-btn-meioAmbiente-separation-block .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -1874,7 +1880,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-meioAmbiente-tittle-mst-section .mst-btn-position-meioAmbiente .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -1907,7 +1913,7 @@ footer .mst-btn-top-head {
 .mst-paragraph-separation-meio-ambiente-background .mst-paragrph-background-content-meio-ambiente h1 {
   margin: 0;
   text-align: left;
-  font-size: 6rem;
+  font-size: 4.2rem;
 }
 
 .mst-bg-image-comunidade {
@@ -1981,7 +1987,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-comunidade .mst-comunidade-title-content-block .mst-btn-comunidade-separation-block .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -2109,7 +2115,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-comunidade-tittle-mst-section .mst-btn-position-comunidade .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -2216,7 +2222,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-seu-pedido .mst-seu-pedido-title-content-block .mst-btn-seu-pedido-separation-block .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -2369,7 +2375,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-seu-pedido-tittle-mst-section .mst-btn-position-seu-pedido .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: #424953;
@@ -2520,7 +2526,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-seu-pedido-tittle-mst-section-int .mst-btn-position-seu-pedido-int .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: #424953;
@@ -2609,7 +2615,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-releases .mst-releases-title-content-block .mst-btn-releases-separation-block .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -2713,7 +2719,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-releases-tittle-mst-section .mst-btn-position-releases .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -2808,7 +2814,7 @@ footer .mst-btn-top-head {
 .mst-contato-section-block .mst-contato-content .first-contato-content-mst-section h1 {
   text-align: center;
   line-height: 6.6875rem; /* Ajuste equivalente a 84px */
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   font-size: 7rem;
   margin: 2rem 0;
 }
@@ -2874,7 +2880,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-contato-section-block .mst-contato-content .first-contato-content-mst-section .mst-btn-contato-position .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -3132,7 +3138,7 @@ footer .mst-btn-top-head {
 }
 .mst-blog-content-posts .mst-blog-content-text h3 {
   margin: 1rem 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 250;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -3158,7 +3164,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-blog-content-posts .mst-blog-content-text .mst-btn-section-blog-posts-home .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -3247,7 +3253,7 @@ footer .mst-btn-top-head {
   margin: 3rem 0;
 }
 .mst-bg-header-blog .mst-blog-content-block .mst-btn-blog-separation .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -3315,7 +3321,7 @@ footer .mst-btn-top-head {
 }
 .mst-posts-content-section .mst-posts-content-posts .first-content-mst-section-posts h3 {
   font-weight: 150;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 .mst-posts-content-section .mst-posts-content-posts .first-content-mst-section-posts .mst-posts-presentation-img-first picture {
   width: 100%;
@@ -3359,7 +3365,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-posts-content-section .mst-posts-content-posts .first-content-mst-section-posts .mst-btn-posts-position .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -3492,7 +3498,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-posts-content .content-tittle-mst-section-posts .mst-btn-posts-position .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -3608,7 +3614,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-posts-content-section .content-tittle-mst-section-posts .mst-btn-posts-position .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -3697,7 +3703,7 @@ footer .mst-btn-top-head {
   margin: 3rem 0;
 }
 .mst-first-post-macarons-bg .mst-first-post-title-content .mst-btn-first-post-separation .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -3830,7 +3836,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-first-post-content .content-first-post-tittle-mst-section .mst-btn-position-first-post .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -3919,7 +3925,7 @@ footer .mst-btn-top-head {
   margin: 3rem 0;
 }
 .mst-second-post-biscoitos-da-vovo-bg .mst-second-post-title-content .mst-btn-second-post-separation .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -4078,7 +4084,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-second-post-content .content-second-post-tittle-mst-section .mst-btn-position-second-post .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -4167,7 +4173,7 @@ footer .mst-btn-top-head {
   margin: 3rem 0;
 }
 .mst-third-post-macarons-bg .mst-third-post-title-content .mst-btn-third-post-separation .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -4307,7 +4313,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-third-post-content .content-third-post-tittle-mst-section .mst-btn-position-third-post .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -4340,7 +4346,7 @@ footer .mst-btn-top-head {
 }
 .mst-img-contact-section-block h2 {
   line-height: 5rem; /* Ajuste equivalente a 47px */
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   font-size: 3.5rem;
   font-weight: 200;
   margin: 0;
@@ -4356,7 +4362,7 @@ footer .mst-btn-top-head {
   text-align: center;
   padding: 0 2rem;
   position: relative;
-  bottom: 1rem;
+  bottom: 2rem;
 }
 @media (min-width: 768px) {
   .mst-img-contact-section-block .mst-content-contact-block {
@@ -4374,6 +4380,7 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   font-size: 1.5rem;
   font-weight: 250;
+  margin: 0.5rem 0;
 }
 @media (min-width: 768px) {
   .mst-img-contact-section-block .mst-content-contact-block p {
@@ -4394,7 +4401,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-img-contact-section-block .mst-btn-separation-block .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   font-size: 0.8125rem;
   line-height: 1.3125rem;
   font-size: 1.7rem;
@@ -4428,7 +4435,7 @@ footer .mst-btn-top-head {
 }
 .img-bar-contact-separation h2 {
   line-height: 5rem; /* Ajuste equivalente a 47px */
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   font-size: 3.5rem;
   font-weight: 200;
   margin: 0;
@@ -4439,7 +4446,7 @@ footer .mst-btn-top-head {
   text-align: left;
   padding: 0 2rem;
   position: relative;
-  bottom: 1.2rem;
+  bottom: 2rem;
 }
 @media (min-width: 768px) {
   .img-bar-contact-separation .mst-tittle-content-block {
@@ -4459,7 +4466,7 @@ footer .mst-btn-top-head {
   font-size: 1.5rem;
   font-weight: 250;
   text-align: center;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 @media (min-width: 768px) {
   .img-bar-contact-separation .mst-tittle-content-block p {
@@ -4480,7 +4487,7 @@ footer .mst-btn-top-head {
   }
 }
 .img-bar-contact-separation .mst-btn-separation-block .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   font-size: 0.8125rem;
   line-height: 1.3125rem;
   font-size: 1.7rem;
@@ -4549,7 +4556,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-background-separation-block .mst-btn-separation-block .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   font-size: 0.8125rem;
   line-height: 1.3125rem;
   font-size: 1.7rem;
@@ -5162,7 +5169,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-privacidade .mst-privacidade-title-content-block .mst-btn-privacidade-separation-block .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-purple);
@@ -5275,7 +5282,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-first-privacidade-tittle-mst-section .mst-btn-position-first-privacidade .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -5363,7 +5370,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-troca-de-produto .mst-troca-de-produto-title-content-block .mst-btn-troca-de-produto-separation-block .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-purple);
@@ -5471,7 +5478,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-first-troca-de-produto-tittle-mst-section .mst-btn-position-first-troca-de-produto .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -5559,7 +5566,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-termos-de-uso .mst-termos-de-uso-title-content-block .mst-btn-termos-de-uso-separation-block .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-purple);
@@ -5676,7 +5683,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-first-termos-de-uso-tittle-mst-section .mst-btn-position-first-termos-de-uso .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -5765,7 +5772,7 @@ footer .mst-btn-top-head {
   margin: 3rem 0;
 }
 .mst-bg-image-cookies .mst-cookies-title-content-block .mst-btn-cookies-separation-block .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-purple);
@@ -5874,7 +5881,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-first-cookies-tittle-mst-section .mst-btn-position-first-privacidade .mst-btns {
-  font-family: "Abril Fatface";
+  font-family: "Lander Grande";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
