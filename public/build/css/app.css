@@ -1567,7 +1567,7 @@ footer .mst-btn-top-head {
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
   width: 200px;
-  padding: 15px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -1657,7 +1657,7 @@ footer .mst-btn-top-head {
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 15px 40px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
@@ -5126,7 +5126,7 @@ footer .mst-btn-top-head {
   font-size: 2.1rem;
 }
 .dropdown__container .dropdown__group .dropdown__title {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: 378;
   font-family: "Newton";
 }
@@ -5759,7 +5759,7 @@ footer .mst-btn-top-head {
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
   width: 200px;
-  padding: 15px 30px;
+  padding: 15px 20px;
   text-align: center;
   color: #F4F5F0;
   border-radius: 10px;
