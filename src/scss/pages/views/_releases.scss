@@ -28,7 +28,7 @@
                             color: $white;
                             text-align: center;
                             font-weight: 200;
-                            font-size: 5.2rem;
+                            font-size: 4.6rem;
                             margin-top: 0;
 
                             @include desktop {
@@ -78,7 +78,7 @@
 
     
                        .mst-btns {
-                        font-family: 'Lander Grande';
+                        font-family: 'Newton';
                         line-height: 1.3125rem;
                         font-size: 1.7rem;
                         background-color: var(--mst-button-background-pink); //#424953
@@ -108,7 +108,11 @@
 .content-releases-tittle-mst-section {
 
     background-color: var(--mst-background-sections); //#424953
-    padding: 5rem;
+    padding: 3rem;
+
+    @include tablet {
+        padding: 5rem;
+    }
 
     @include desktop {
         padding: 0 10rem;
@@ -130,17 +134,17 @@
                 h1 {
 
                     text-align: left;
-                    font-size: 6rem;
+                    font-size: 5rem;
 
                     @include desktop {
                         text-align: left;
                         margin: 3.5rem 0;
-                        font-size: 9rem;
+                        font-size: 7rem;
 
                     }
 
                     @include tablet {
-                        font-size: 9rem;
+                        font-size: 7rem;
                         margin: 5rem 0;
                     }
                  }
@@ -205,7 +209,7 @@
                         }
 
                         .mst-btns {
-                            font-family: 'Lander Grande';
+                            font-family: 'Newton';
                             line-height: 1.3125rem;
                             font-size: 1.7rem;
                             background-color: var(--mst-button-background-blue); //#424953
@@ -229,7 +233,11 @@
 
         .mst-paragraph-releases-separation-background {
             background-color: var(--mst-bar-background-sections);
-            padding: 5rem;
+            padding: 3rem;
+
+            @include tablet {
+                padding: 5rem;
+            }
 
             @include desktop {
                 padding: 5rem 10rem;

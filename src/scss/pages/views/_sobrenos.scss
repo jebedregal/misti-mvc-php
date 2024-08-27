@@ -83,8 +83,8 @@
                 h1 {
 
                     text-align: center;
-                    line-height: 4.6875rem; /* Ajuste equivalente a 84px */
-                    font-family: 'Lander Grande';
+                    line-height: 8.6875rem; /* Ajuste equivalente a 84px */
+                    font-family: 'Newton';
                     font-size: 7rem;
                     margin: 2rem 0;
 
@@ -112,7 +112,6 @@
                     }
                     
                     text-align: center;
-                    // font: 400 13px / 21px 'open sans';
                     // font-size: 1.7rem;
                     margin: 1rem 1rem 3rem 1rem; // margin: 3rem 1rem;
                     font-size: 1.5rem;
@@ -153,7 +152,7 @@
                         }
 
                         .mst-btns {
-                            font-family: 'Lander Grande';
+                            font-family: 'Newton';
                             line-height: 1.3125rem;
                             font-size: 1.7rem;
                             background-color: var(--mst-button-background-blue); //#424953
@@ -266,7 +265,7 @@
 
     
                        .mst-btns {
-                        font-family: 'Lander Grande';
+                        font-family: 'Newton';
                         line-height: 1.3125rem;
                         font-size: 1.7rem;
                         background-color: var(--mst-button-background-pink); //#424953
@@ -294,7 +293,7 @@
     
         background-color: var(--mst-background-sections);
         margin: 0 auto;
-        padding: 5rem;
+        padding: 3rem;
         
         @include tablet {
             padding: 5rem;
@@ -389,7 +388,7 @@
                         }
 
                         .mst-btns {
-                            font-family: 'Lander Grande';
+                            font-family: 'Newton';
                             line-height: 1.3125rem;
                             font-size: 1.7rem;
                             background-color: var(--mst-button-background-blue); //#424953
@@ -418,7 +417,11 @@
 
         .mst-paragraph-separation-background {
             background-color: var(--mst-bar-background-sections);
-            padding: 5rem;
+            padding: 3rem;
+
+            @include tablet {
+                padding: 5rem;
+            }
           
             @include desktop {
                 padding: 5rem 10rem;
@@ -428,6 +431,7 @@
                 h1 {
                     margin: 0;
                     text-align: left;
+                    font-size: 4.6rem;
                 }
           }
 

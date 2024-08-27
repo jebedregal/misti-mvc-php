@@ -409,8 +409,8 @@ h1, h2, h3 {
 }
 
 @font-face {
-  font-family: "LanderGrande";
-  src: url("/build/fonts/LanderGrande.woff2") format("woff2"), url("/build/fonts/LanderGrande.woff") format("woff");
+  font-family: "Newton";
+  src: url("../fonts/Newton-Regular.woff2") format("woff2"), url("../fonts/Newton-Regular.woff") format("woff"), url("../fonts/Newton-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -418,22 +418,22 @@ h1 {
   text-align: center;
   font-weight: 400;
   font-size: 5.4375rem; /* Ajuste equivalente a 87px */
-  line-height: 7.6875rem; /* Ajuste equivalente a 84px */
-  font-family: "Lander Grande";
+  line-height: 8.6875rem; /* Ajuste equivalente a 84px */
+  font-family: "Newton";
 }
 
 h2 {
   font-weight: 400;
   font-size: 5.4375rem; /* Ajuste equivalente a 87px */
   line-height: 4.3rem; /* Ajuste equivalente a 47px */
-  font-family: "Lander Grande";
+  font-family: "Newton";
 }
 
 h3 {
   font-size: 2rem;
   font-weight: 400;
   line-height: 4.3rem; /* Ajuste equivalente a 47px */
-  font-family: "Lander Grande";
+  font-family: "Newton";
 }
 
 h4 {
@@ -1008,7 +1008,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-cardapio .mst-cardapio-title-content-block .mst-btn-cardapio-separation-block .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -1144,7 +1144,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-cardapio-content-section .mst-cardapio-content .first-content-mst-section .mst-btn-cardapio-position .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -1312,7 +1312,7 @@ footer .mst-btn-top-head {
   padding: 0.5rem;
 }
 .mst-section-articles-block .mst-advertisements-block .mst-content-advertisement .mst-btn-advertisements-position .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -1403,8 +1403,8 @@ footer .mst-btn-top-head {
 }
 .mst-section-sobrenos-content .content-tittle-mst-section h1 {
   text-align: center;
-  line-height: 4.6875rem; /* Ajuste equivalente a 84px */
-  font-family: "Lander Grande";
+  line-height: 8.6875rem; /* Ajuste equivalente a 84px */
+  font-family: "Newton";
   font-size: 7rem;
   margin: 2rem 0;
 }
@@ -1467,7 +1467,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-sobrenos-content .content-tittle-mst-section .mst-btn-position .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -1562,7 +1562,7 @@ footer .mst-btn-top-head {
   margin: 2rem 0;
 }
 .mst-first-bg-image-sobrenos .mst-sobrenos-title-content-block .mst-sobrenos-btn-separation-block .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -1582,7 +1582,7 @@ footer .mst-btn-top-head {
 .content-sobrenos-tittle-mst-section {
   background-color: var(--mst-background-sections);
   margin: 0 auto;
-  padding: 5rem;
+  padding: 3rem;
 }
 @media (min-width: 768px) {
   .content-sobrenos-tittle-mst-section {
@@ -1652,7 +1652,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-sobrenos-tittle-mst-section .mst-btn-position-sobrenos .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -1671,7 +1671,12 @@ footer .mst-btn-top-head {
 
 .mst-paragraph-separation-background {
   background-color: var(--mst-bar-background-sections);
-  padding: 5rem;
+  padding: 3rem;
+}
+@media (min-width: 768px) {
+  .mst-paragraph-separation-background {
+    padding: 5rem;
+  }
 }
 @media (min-width: 1200px) {
   .mst-paragraph-separation-background {
@@ -1681,6 +1686,7 @@ footer .mst-btn-top-head {
 .mst-paragraph-separation-background h1 {
   margin: 0;
   text-align: left;
+  font-size: 4.6rem;
 }
 
 .mst-bg-image-meioAmbiente {
@@ -1754,7 +1760,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-meioAmbiente .mst-meioAmbiente-title-content-block .mst-btn-meioAmbiente-separation-block .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -1778,7 +1784,12 @@ footer .mst-btn-top-head {
 /*********************************************************************/
 .content-meioAmbiente-tittle-mst-section {
   background-color: #F4F5F0;
-  padding: 5rem;
+  padding: 3rem;
+}
+@media (min-width: 768px) {
+  .content-meioAmbiente-tittle-mst-section {
+    padding: 5rem;
+  }
 }
 @media (min-width: 1200px) {
   .content-meioAmbiente-tittle-mst-section {
@@ -1816,18 +1827,18 @@ footer .mst-btn-top-head {
 }
 .content-meioAmbiente-tittle-mst-section h1 {
   text-align: left;
-  font-size: 7rem;
+  font-size: 5.5rem;
 }
 @media (min-width: 1200px) {
   .content-meioAmbiente-tittle-mst-section h1 {
     text-align: left;
     margin: 3.5rem 0;
-    font-size: 9rem;
+    font-size: 7rem;
   }
 }
 @media (min-width: 768px) {
   .content-meioAmbiente-tittle-mst-section h1 {
-    font-size: 9rem;
+    font-size: 7rem;
     margin: 5rem 0;
   }
 }
@@ -1880,7 +1891,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-meioAmbiente-tittle-mst-section .mst-btn-position-meioAmbiente .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -1914,6 +1925,7 @@ footer .mst-btn-top-head {
   margin: 0;
   text-align: left;
   font-size: 4.2rem;
+  line-height: 6.5rem;
 }
 
 .mst-bg-image-comunidade {
@@ -1945,8 +1957,9 @@ footer .mst-btn-top-head {
   text-align: center;
   font-weight: 200;
   margin-top: 0;
+  font-size: 4.6rem;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .mst-bg-image-comunidade .mst-comunidade-title-content-block h1 {
     font-size: 6rem;
   }
@@ -1987,7 +2000,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-comunidade .mst-comunidade-title-content-block .mst-btn-comunidade-separation-block .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -2049,7 +2062,7 @@ footer .mst-btn-top-head {
 }
 .content-comunidade-tittle-mst-section h1 {
   text-align: left;
-  font-size: 5.5rem;
+  font-size: 4.5rem;
 }
 @media (min-width: 768px) {
   .content-comunidade-tittle-mst-section h1 {
@@ -2115,7 +2128,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-comunidade-tittle-mst-section .mst-btn-position-comunidade .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -2148,7 +2161,8 @@ footer .mst-btn-top-head {
 .mst-paragraph-separation-background-comunidade .mst-paragraph-separation-background-comunidade-content h1 {
   margin: 0;
   text-align: left;
-  font-size: 6rem;
+  font-size: 3.5rem;
+  line-height: 6rem;
 }
 
 .mst-bg-image-seu-pedido {
@@ -2222,7 +2236,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-seu-pedido .mst-seu-pedido-title-content-block .mst-btn-seu-pedido-separation-block .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -2246,7 +2260,7 @@ footer .mst-btn-top-head {
 /*********************************************************************/
 .content-seu-pedido-tittle-mst-section {
   background-color: #F4F5F0;
-  padding: 0 3.5rem;
+  padding: 0 3rem;
   display: flex;
 }
 @media (min-width: 1200px) {
@@ -2375,7 +2389,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-seu-pedido-tittle-mst-section .mst-btn-position-seu-pedido .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: #424953;
@@ -2399,8 +2413,13 @@ footer .mst-btn-top-head {
 /*********************************************************************/
 .content-seu-pedido-tittle-mst-section-int {
   background-color: #F4F5F0;
-  padding: 0 3.5rem;
+  padding: 3rem;
   display: flex;
+}
+@media (min-width: 768px) {
+  .content-seu-pedido-tittle-mst-section-int {
+    padding: 5rem;
+  }
 }
 @media (min-width: 1200px) {
   .content-seu-pedido-tittle-mst-section-int {
@@ -2526,7 +2545,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-seu-pedido-tittle-mst-section-int .mst-btn-position-seu-pedido-int .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: #424953;
@@ -2571,7 +2590,7 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
-  font-size: 5.2rem;
+  font-size: 4.6rem;
   margin-top: 0;
 }
 @media (min-width: 1200px) {
@@ -2615,7 +2634,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-releases .mst-releases-title-content-block .mst-btn-releases-separation-block .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -2634,7 +2653,12 @@ footer .mst-btn-top-head {
 
 .content-releases-tittle-mst-section {
   background-color: var(--mst-background-sections);
-  padding: 5rem;
+  padding: 3rem;
+}
+@media (min-width: 768px) {
+  .content-releases-tittle-mst-section {
+    padding: 5rem;
+  }
 }
 @media (min-width: 1200px) {
   .content-releases-tittle-mst-section {
@@ -2653,18 +2677,18 @@ footer .mst-btn-top-head {
 }
 .content-releases-tittle-mst-section h1 {
   text-align: left;
-  font-size: 6rem;
+  font-size: 5rem;
 }
 @media (min-width: 1200px) {
   .content-releases-tittle-mst-section h1 {
     text-align: left;
     margin: 3.5rem 0;
-    font-size: 9rem;
+    font-size: 7rem;
   }
 }
 @media (min-width: 768px) {
   .content-releases-tittle-mst-section h1 {
-    font-size: 9rem;
+    font-size: 7rem;
     margin: 5rem 0;
   }
 }
@@ -2719,7 +2743,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-releases-tittle-mst-section .mst-btn-position-releases .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -2738,7 +2762,12 @@ footer .mst-btn-top-head {
 
 .mst-paragraph-releases-separation-background {
   background-color: var(--mst-bar-background-sections);
-  padding: 5rem;
+  padding: 3rem;
+}
+@media (min-width: 768px) {
+  .mst-paragraph-releases-separation-background {
+    padding: 5rem;
+  }
 }
 @media (min-width: 1200px) {
   .mst-paragraph-releases-separation-background {
@@ -2813,8 +2842,8 @@ footer .mst-btn-top-head {
 }
 .mst-contato-section-block .mst-contato-content .first-contato-content-mst-section h1 {
   text-align: center;
-  line-height: 6.6875rem; /* Ajuste equivalente a 84px */
-  font-family: "Lander Grande";
+  line-height: 8.6875rem; /* Ajuste equivalente a 84px */
+  font-family: "Newton";
   font-size: 7rem;
   margin: 2rem 0;
 }
@@ -2880,7 +2909,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-contato-section-block .mst-contato-content .first-contato-content-mst-section .mst-btn-contato-position .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -3164,7 +3193,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-blog-content-posts .mst-blog-content-text .mst-btn-section-blog-posts-home .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -3253,7 +3282,7 @@ footer .mst-btn-top-head {
   margin: 3rem 0;
 }
 .mst-bg-header-blog .mst-blog-content-block .mst-btn-blog-separation .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -3282,8 +3311,13 @@ footer .mst-btn-top-head {
 /************************************************/
 /*******************************************************************************/
 .mst-posts-content-section {
-  padding: 5rem;
+  padding: 3rem;
   background-color: #F4F5F0;
+}
+@media (min-width: 768px) {
+  .mst-posts-content-section {
+    padding: 5rem;
+  }
 }
 @media (min-width: 1200px) {
   .mst-posts-content-section {
@@ -3365,7 +3399,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-posts-content-section .mst-posts-content-posts .first-content-mst-section-posts .mst-btn-posts-position .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -3405,7 +3439,12 @@ footer .mst-btn-top-head {
 /*******************************************************************************/
 .mst-section-posts-content {
   background-color: var(--mst-background-sections-posts);
-  padding: 5rem;
+  padding: 3rem;
+}
+@media (min-width: 768px) {
+  .mst-section-posts-content {
+    padding: 5rem;
+  }
 }
 @media (min-width: 1200px) {
   .mst-section-posts-content .content-tittle-mst-section-posts {
@@ -3498,7 +3537,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-posts-content .content-tittle-mst-section-posts .mst-btn-posts-position .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -3521,7 +3560,12 @@ footer .mst-btn-top-head {
 /*******************************************************************************/
 .mst-posts-content-section {
   background-color: var(--mst-background-sections-posts);
-  padding: 5rem;
+  padding: 3rem;
+}
+@media (min-width: 768px) {
+  .mst-posts-content-section {
+    padding: 5rem;
+  }
 }
 @media (min-width: 1200px) {
   .mst-posts-content-section .content-tittle-mst-section-posts {
@@ -3614,7 +3658,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-posts-content-section .content-tittle-mst-section-posts .mst-btn-posts-position .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -3660,8 +3704,9 @@ footer .mst-btn-top-head {
   text-align: center;
   font-weight: 200;
   margin-top: 0;
+  font-size: 4.4375rem;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .mst-first-post-macarons-bg .mst-first-post-title-content h1 {
     font-size: 6rem;
   }
@@ -3703,7 +3748,7 @@ footer .mst-btn-top-head {
   margin: 3rem 0;
 }
 .mst-first-post-macarons-bg .mst-first-post-title-content .mst-btn-first-post-separation .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -3722,7 +3767,12 @@ footer .mst-btn-top-head {
 
 .mst-section-first-post-content {
   background-color: #f5f5f5;
-  padding: 3.5rem;
+  padding: 3rem;
+}
+@media (min-width: 768px) {
+  .mst-section-first-post-content {
+    padding: 5rem;
+  }
 }
 @media (min-width: 1200px) {
   .mst-section-first-post-content {
@@ -3766,9 +3816,9 @@ footer .mst-btn-top-head {
 }
 .mst-section-first-post-content .content-first-post-tittle-mst-section h1 {
   text-align: left;
-  font-size: 5.5rem;
+  font-size: 4.9rem;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .mst-section-first-post-content .content-first-post-tittle-mst-section h1 {
     text-align: left;
     margin: 3.5rem 0;
@@ -3836,7 +3886,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-first-post-content .content-first-post-tittle-mst-section .mst-btn-position-first-post .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -3925,7 +3975,7 @@ footer .mst-btn-top-head {
   margin: 3rem 0;
 }
 .mst-second-post-biscoitos-da-vovo-bg .mst-second-post-title-content .mst-btn-second-post-separation .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -3950,7 +4000,12 @@ footer .mst-btn-top-head {
   background-color: #f5f5f5;
 }
 .mst-section-second-post-content .content-second-post-tittle-mst-section {
-  padding: 3.5rem;
+  padding: 3rem;
+}
+@media (min-width: 768px) {
+  .mst-section-second-post-content .content-second-post-tittle-mst-section {
+    padding: 5rem;
+  }
 }
 @media (min-width: 1200px) {
   .mst-section-second-post-content .content-second-post-tittle-mst-section {
@@ -4084,7 +4139,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-second-post-content .content-second-post-tittle-mst-section .mst-btn-position-second-post .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -4173,7 +4228,7 @@ footer .mst-btn-top-head {
   margin: 3rem 0;
 }
 .mst-third-post-macarons-bg .mst-third-post-title-content .mst-btn-third-post-separation .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-pink);
@@ -4196,9 +4251,12 @@ footer .mst-btn-top-head {
 /****************************************************************/
 .mst-section-third-post-content {
   background-color: #f5f5f5;
+  padding: 3rem;
 }
-.mst-section-third-post-content .content-third-post-tittle-mst-section {
-  padding: 3.5rem;
+@media (min-width: 768px) {
+  .mst-section-third-post-content {
+    padding: 5rem 0;
+  }
 }
 @media (min-width: 1200px) {
   .mst-section-third-post-content .content-third-post-tittle-mst-section {
@@ -4313,7 +4371,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-section-third-post-content .content-third-post-tittle-mst-section .mst-btn-position-third-post .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -4346,7 +4404,7 @@ footer .mst-btn-top-head {
 }
 .mst-img-contact-section-block h2 {
   line-height: 5rem; /* Ajuste equivalente a 47px */
-  font-family: "Lander Grande";
+  font-family: "Newton";
   font-size: 3.5rem;
   font-weight: 200;
   margin: 0;
@@ -4361,8 +4419,6 @@ footer .mst-btn-top-head {
   color: #FFFFFF;
   text-align: center;
   padding: 0 2rem;
-  position: relative;
-  bottom: 2rem;
 }
 @media (min-width: 768px) {
   .mst-img-contact-section-block .mst-content-contact-block {
@@ -4401,7 +4457,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-img-contact-section-block .mst-btn-separation-block .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   font-size: 0.8125rem;
   line-height: 1.3125rem;
   font-size: 1.7rem;
@@ -4435,7 +4491,7 @@ footer .mst-btn-top-head {
 }
 .img-bar-contact-separation h2 {
   line-height: 5rem; /* Ajuste equivalente a 47px */
-  font-family: "Lander Grande";
+  font-family: "Newton";
   font-size: 3.5rem;
   font-weight: 200;
   margin: 0;
@@ -4487,7 +4543,7 @@ footer .mst-btn-top-head {
   }
 }
 .img-bar-contact-separation .mst-btn-separation-block .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   font-size: 0.8125rem;
   line-height: 1.3125rem;
   font-size: 1.7rem;
@@ -4556,7 +4612,7 @@ footer .mst-btn-top-head {
   }
 }
 .mst-background-separation-block .mst-btn-separation-block .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   font-size: 0.8125rem;
   line-height: 1.3125rem;
   font-size: 1.7rem;
@@ -5072,7 +5128,7 @@ footer .mst-btn-top-head {
 .dropdown__container .dropdown__group .dropdown__title {
   font-size: 1.2rem;
   font-weight: 378;
-  font: 400 19px/23px Abril Fatface;
+  font-family: "Newton";
 }
 .dropdown__container .dropdown__group .dropdown__link {
   font-size: 1.3rem;
@@ -5169,7 +5225,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-privacidade .mst-privacidade-title-content-block .mst-btn-privacidade-separation-block .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-purple);
@@ -5188,7 +5244,12 @@ footer .mst-btn-top-head {
 
 .content-first-privacidade-tittle-mst-section {
   background-color: var(--mst-background-sections);
-  padding: 5rem;
+  padding: 3rem;
+}
+@media (min-width: 768px) {
+  .content-first-privacidade-tittle-mst-section {
+    padding: 5rem;
+  }
 }
 @media (min-width: 1200px) {
   .content-first-privacidade-tittle-mst-section {
@@ -5207,7 +5268,7 @@ footer .mst-btn-top-head {
 }
 .content-first-privacidade-tittle-mst-section h1 {
   text-align: left;
-  font-size: 7rem;
+  font-size: 5.5rem;
 }
 @media (min-width: 1200px) {
   .content-first-privacidade-tittle-mst-section h1 {
@@ -5282,7 +5343,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-first-privacidade-tittle-mst-section .mst-btn-position-first-privacidade .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -5370,7 +5431,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-troca-de-produto .mst-troca-de-produto-title-content-block .mst-btn-troca-de-produto-separation-block .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-purple);
@@ -5389,7 +5450,12 @@ footer .mst-btn-top-head {
 
 .content-first-troca-de-produto-tittle-mst-section {
   background-color: var(--mst-background-sections);
-  padding: 5rem;
+  padding: 3rem;
+}
+@media (min-width: 768px) {
+  .content-first-troca-de-produto-tittle-mst-section {
+    padding: 5rem;
+  }
 }
 @media (min-width: 1200px) {
   .content-first-troca-de-produto-tittle-mst-section {
@@ -5407,19 +5473,19 @@ footer .mst-btn-top-head {
   }
 }
 .content-first-troca-de-produto-tittle-mst-section h1 {
-  text-align: center;
-  font-size: 7rem;
+  text-align: left;
+  font-size: 5.5rem;
 }
 @media (min-width: 1200px) {
   .content-first-troca-de-produto-tittle-mst-section h1 {
     text-align: center;
     margin: 3.5rem 0;
-    font-size: 9rem;
+    font-size: 7rem;
   }
 }
 @media (min-width: 768px) {
   .content-first-troca-de-produto-tittle-mst-section h1 {
-    font-size: 9rem;
+    font-size: 7rem;
   }
 }
 .content-first-troca-de-produto-tittle-mst-section p {
@@ -5478,7 +5544,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-first-troca-de-produto-tittle-mst-section .mst-btn-position-first-troca-de-produto .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -5566,7 +5632,7 @@ footer .mst-btn-top-head {
   align-items: center;
 }
 .mst-bg-image-termos-de-uso .mst-termos-de-uso-title-content-block .mst-btn-termos-de-uso-separation-block .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-purple);
@@ -5585,7 +5651,12 @@ footer .mst-btn-top-head {
 
 .content-first-termos-de-uso-tittle-mst-section {
   background-color: var(--mst-background-sections);
-  padding: 5rem;
+  padding: 3rem;
+}
+@media (min-width: 768px) {
+  .content-first-termos-de-uso-tittle-mst-section {
+    padding: 5rem;
+  }
 }
 @media (min-width: 1200px) {
   .content-first-termos-de-uso-tittle-mst-section {
@@ -5603,19 +5674,19 @@ footer .mst-btn-top-head {
   }
 }
 .content-first-termos-de-uso-tittle-mst-section h1 {
+  font-size: 5.5rem;
   text-align: left;
-  font-size: 7rem;
 }
 @media (min-width: 1200px) {
   .content-first-termos-de-uso-tittle-mst-section h1 {
     text-align: center;
     margin: 3.5rem 0;
-    font-size: 9rem;
+    font-size: 7rem;
   }
 }
 @media (min-width: 768px) {
   .content-first-termos-de-uso-tittle-mst-section h1 {
-    font-size: 9rem;
+    font-size: 7rem;
   }
 }
 .content-first-termos-de-uso-tittle-mst-section p {
@@ -5683,7 +5754,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-first-termos-de-uso-tittle-mst-section .mst-btn-position-first-termos-de-uso .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);
@@ -5772,7 +5843,7 @@ footer .mst-btn-top-head {
   margin: 3rem 0;
 }
 .mst-bg-image-cookies .mst-cookies-title-content-block .mst-btn-cookies-separation-block .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-purple);
@@ -5791,7 +5862,12 @@ footer .mst-btn-top-head {
 
 .content-first-cookies-tittle-mst-section {
   background-color: var(--mst-background-sections);
-  padding: 5rem;
+  padding: 3rem;
+}
+@media (min-width: 768px) {
+  .content-first-cookies-tittle-mst-section {
+    padding: 5rem;
+  }
 }
 @media (min-width: 1200px) {
   .content-first-cookies-tittle-mst-section {
@@ -5810,7 +5886,7 @@ footer .mst-btn-top-head {
 }
 .content-first-cookies-tittle-mst-section h1 {
   text-align: left;
-  font-size: 7rem;
+  font-size: 5.5rem;
 }
 @media (min-width: 1200px) {
   .content-first-cookies-tittle-mst-section h1 {
@@ -5881,7 +5957,7 @@ footer .mst-btn-top-head {
   }
 }
 .content-first-cookies-tittle-mst-section .mst-btn-position-first-privacidade .mst-btns {
-  font-family: "Lander Grande";
+  font-family: "Newton";
   line-height: 1.3125rem;
   font-size: 1.7rem;
   background-color: var(--mst-button-background-blue);

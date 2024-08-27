@@ -1,4 +1,4 @@
-<div class="mst-separation-footer"></div>
+
 
 <footer class="main-footer-navbar-mst">
 		<div class="container-fluid-mst-list">

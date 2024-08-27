@@ -80,7 +80,7 @@
 
     
                        .mst-btns {
-                        font-family: 'Lander Grande';
+                        font-family: 'Newton';
                         line-height: 1.3125rem;
                         font-size: 1.7rem;
                         background-color: var(--mst-button-background-pink); //#424953
@@ -114,12 +114,14 @@
 
 
     background-color: #f5f5f5; //#424953
-    // padding: 5rem;
+    padding: 3rem;
 
+    @include tablet {
+        padding: 5rem 0;
+    }
 
     .content-third-post-tittle-mst-section {
 
-        padding: 3.5rem;
 
         @include desktop {
             padding: 0 5rem 0 0;
@@ -251,7 +253,7 @@
                             }
 
                             .mst-btns {
-                                font-family: 'Lander Grande';
+                                font-family: 'Newton';
                                 line-height: 1.3125rem;
                                 font-size: 1.7rem;
                                 background-color: var(--mst-button-background-blue); //#424953
