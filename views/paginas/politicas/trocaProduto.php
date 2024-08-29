@@ -3,7 +3,7 @@
             <div class="mst-troca-de-produto-title-content-block contenedor" >
                 <p>MISTI</p>
                 <h1>Troca e devoluções</h1>
-                <p>Uma mistura de sobremesas gostosas para você...</p>
+                <p>Política de troca e devoluções | Misti<span>®</span></p>
 
                 <div class="mst-btn-troca-de-produto-separation-block">
                     <a href="#troca" class="mst-btns">Ler mais</a>

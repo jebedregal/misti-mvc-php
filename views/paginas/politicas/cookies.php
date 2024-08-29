@@ -3,6 +3,7 @@
             <div class="mst-cookies-title-content-block contenedor" >
                 <p>MISTI</p>
                 <h1>Cookies</h1>
+                <p>Política de cookies | Misti<span>®</span></p>
 
                 <div class="mst-btn-cookies-separation-block">
                     <a href="#cookies" class="mst-btns">Ler mais</a>

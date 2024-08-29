@@ -3,7 +3,7 @@
             <div class="mst-privacidade-title-content-block contenedor" >
                 <p>MISTI</p>
                 <h1>Privacidade</h1>
-                <p>Uma mistura de sobremesas gostosas para você...</p>
+                <p>Política de privacidade | Misti<span>®</span></p>
 
                 <div class="mst-btn-privacidade-separation-block">
                     <a href="#privacidade" class="mst-btns">Ler mais</a>

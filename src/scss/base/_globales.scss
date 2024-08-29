@@ -74,6 +74,44 @@
   //   font-style: normal;
   // }
 
+  button, 
+  button:focus, 
+  button:active {
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      outline: none;
+      box-shadow: none; 
+  }
+
+  input, 
+  input:focus, 
+  input:active {
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      outline: none;
+      box-shadow: none;
+  }
+
+  input:-webkit-autofill {
+    background-color: transparent !important;  
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset; 
+    box-shadow: 0 0 0px 1000px transparent inset; 
+    -webkit-text-fill-color: #000; 
+  }
+
+
+  input:focus:-webkit-autofill {
+    background-color: transparent !important; 
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+    box-shadow: 0 0 0px 1000px transparent inset;
+  }
+
+  label, 
+  label:focus, 
+  label:active {
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      outline: none;
+      box-shadow: none;
+  }
+
   @font-face {
     font-family: 'Newton';
     src: url('../fonts/Newton-Regular.woff2') format('woff2'),
@@ -121,15 +159,21 @@
   padding-bottom: 3rem;
 }
 
-a{
+
+a, 
+a:focus, 
+a:active {
   // color: #333;
   // font-size: 13.5px;
   // font-weight: 400;
-  font-size: 1.37rem;
-  font-weight: 250;
-  text-decoration: none;
-
+    font-size: 1.37rem;
+    font-weight: 250;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    outline: none;
+    box-shadow: none;
 }
+
 
 span{
   font-size: 12px;

@@ -9,14 +9,14 @@
         }
 
         @include desktop {
-            padding: 3rem 10rem;
+            padding: 3rem 5rem;
         }
 
 
         @include desktop {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 10rem;
+            gap: 8rem;
             // padding: 3rem 10rem;
             margin-left: auto;
             margin-right: auto;

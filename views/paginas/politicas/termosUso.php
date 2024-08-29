@@ -3,7 +3,7 @@
             <div class="mst-termos-de-uso-title-content-block contenedor" >
                 <p>MISTI</p>
                 <h1>Termos de Uso</h1>
-                <p>Uma mistura de sobremesas gostosas para você...</p>
+                <p>Política de termos de uso | Misti<span>®</span></p>
 
                 <div class="mst-btn-termos-de-uso-separation-block">
                     <a href="#termos" class="mst-btns">Ler mais</a>
