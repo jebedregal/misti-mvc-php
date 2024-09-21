@@ -70,7 +70,7 @@
   
     <section class="img-bar-contact-separation">
             <div class="mst-tittle-content-block">
-                <h2>Nosso cardápio completo</h2>
+                <h2>Nosso cardápio</h2>
                 <p>Veja nossa mais ampla gastronomia e faça seu pedido.</p>
 
 
